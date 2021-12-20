@@ -1,16 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.chimp-central</groupId>
-	<!-- updated below -->
-	<artifactId>maven-publish-template</artifactId>
-	<!-- updated below -->
-	<version>1.0.0</version>
-	<!-- updated below -->
-	<name>Template com.chimp-central:template</name>
-	<!-- updated below -->
-	<description>Maven Publishing Template</description>
-	<!-- updated below -->
-	<url>https://github.com/kwbhatti/maven-publish-template</url>
+	<artifactId>json-utility</artifactId>
+	<version>0.0.1</version>
+	<name>Template com.chimp-central:json-utility</name>
+	<description>JSON Utility to create, manupilate, and compare JSON Objects</description>
+	<url>https://github.com/kwbhatti/json-utility</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
@@ -34,11 +29,10 @@
 			<email>test-monkey@chimp-central.com</email>
 		</developer>
 	</developers>
-	<!-- updated below -->
 	<scm>
-		<connection>scm:git:git@github.com:kwbhatti/maven-publish-template.git</connection>
-		<developerConnection>scm:git:ssh://github.com:kwbhatti/maven-publish-template.git</developerConnection>
-		<url>https://github.com/kwbhatti/maven-publish-template.git/tree/master</url>
+		<connection>scm:git:git@github.com:kwbhatti/json-utility.git</connection>
+		<developerConnection>scm:git:ssh://github.com:kwbhatti/json-utility.git</developerConnection>
+		<url>https://github.com/kwbhatti/json-utility.git/tree/master</url>
 	</scm>
 	<dependencies>
 		<dependency>
@@ -162,8 +156,7 @@
 			<distributionManagement>
 				<repository>
 					<id>github</id>
-					<!-- updated below -->
-					<url>https://maven.pkg.github.com/kwbhatti/maven-publish-template</url>
+					<url>https://maven.pkg.github.com/kwbhatti/json-utility</url>
 				</repository>
 			</distributionManagement>
 		</profile>
