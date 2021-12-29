@@ -1,0 +1,58 @@
+{
+    "name": "khurram",
+    "age": "37",
+    "address": {
+        "street.1": [
+            "201",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205"
+        ],
+        "zip": 20002,
+        "zip2" : 20034,
+        "state": "VA",
+        "addressnotinrequest2": "value for addres not in 2"
+    },
+    "phones": [
+        {
+            "type": "cell",
+            "number": "99999999"
+        },
+        {
+            "type": "home",
+            "number": "3333333"
+        },
+        {
+            "number": "111111"
+        }
+    ],
+    "arryobjectnotinseq": [
+        {
+            "prop1": "prop1value",
+            "prop2": "prop2value"
+        },
+        {
+            "prop12": "prop12value",
+            "prop22": "prop22value"
+        }
+    ],
+    "empty": null,
+    "array": {
+        "arraytest": [
+            {
+                "one": "oneval"
+            },
+            {
+                "two": "twoval"
+            }
+        ]
+    },
+    "addition": "addition value",
+    "jsonchild1": {
+        "jsonchild2": {
+            "jsonchildp": "jsonvalue"
+        }
+    }
+}

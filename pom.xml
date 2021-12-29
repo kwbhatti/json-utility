@@ -2,10 +2,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.chimp-central</groupId>
 	<artifactId>json-utility</artifactId>
-	<version>0.0.1</version>
-	<name>Template com.chimp-central:json-utility</name>
-	<description>JSON Utility to create, manupilate, and compare JSON Objects</description>
-	<url>https://github.com/kwbhatti/json-utility</url>
+	<version>1.0.0</version>
+	<name>JSON Utility</name>
+	<description>Create/Manupilate/Compare JSON Objects</description>
+	<url>https://chimp-central.com/</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
@@ -16,6 +16,9 @@
 		<surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
 		<nexus.staging.maven.plugin>1.6.8</nexus.staging.maven.plugin>
 		<maven.gpg.plugin>1.6</maven.gpg.plugin>
+		<chimp-central.common-utils.version>1.0.1</chimp-central.common-utils.version>
+		<io.rest.assured.version>4.1.2</io.rest.assured.version>
+		<jackson.databind.version>2.13.0</jackson.databind.version>	
 	</properties>
 	<licenses>
 		<license>
@@ -40,6 +43,22 @@
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.chimp-central</groupId>
+			<artifactId>common-utils</artifactId>
+			<version>${chimp-central.common-utils.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.rest-assured</groupId>
+		    <artifactId>rest-assured</artifactId>
+		    <version>${io.rest.assured.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>${jackson.databind.version}</version>
+		</dependency>
+		
 	</dependencies>
 	<profiles>
 		<profile>
@@ -64,7 +83,7 @@
 						<version>${surefire.plugin.version}</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testngFiles/${testngFile}</suiteXmlFile>
+								<suiteXmlFile>testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
 							<groups>${groups}</groups>
 						</configuration>
