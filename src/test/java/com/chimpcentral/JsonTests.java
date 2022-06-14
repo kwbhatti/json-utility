@@ -3,8 +3,8 @@ package com.chimpcentral;
 import java.io.File;
 import java.io.IOException;
 
-import com.chimpcentral.jsons.JsonArray;
-import com.chimpcentral.jsons.JsonObject;
+import com.chimpcentral.jsons.JSONArray;
+import com.chimpcentral.jsons.JSONObject;
 
 public class JsonTests {
 
@@ -48,7 +48,7 @@ public class JsonTests {
 				"}" + 
 				"";
 		System.out.println("json string: " + jsonstring);
-		JsonObject jsonStrObj = new JsonObject(jsonstring);
+		JSONObject jsonStrObj = new JSONObject(jsonstring);
 		System.out.println("json object: " + jsonStrObj);
 		System.out.println("get inner item: " + jsonStrObj.get("new[3][0]"));
 		Object value;
@@ -76,9 +76,9 @@ public class JsonTests {
 		System.out.println(jsonStrObj.delete("workflowType"));
 		jsonStrObj.delete("'new'.'new2.part1'");
 		System.out.println(jsonStrObj.get("audioTracks"));
-		jsonStrObj.add("nullvalue", new JsonObject());
+		jsonStrObj.add("nullvalue", new JSONObject());
 		jsonStrObj.add("'nullvalue'.'null1.null1'", null);
-		jsonStrObj.prettyPrint();
+//		jsonStrObj.prettyPrint();
 		System.out.println(jsonStrObj.contains("'nullvalue'.'null1.null1'"));
 		System.out.println(jsonStrObj.contains("'nullvalue'"));
 		System.out.println(jsonStrObj.contains("notthere.ss"));
@@ -89,8 +89,8 @@ public class JsonTests {
 		
 		String filePath = System.getProperty("user.dir")+"/src/main/resources/jsonArray.json";
 		File file = new File(filePath);
-		JsonArray jsonArray = new JsonArray(file);
-		jsonArray.prettyPrint();
+		JSONArray jsonArray = new JSONArray(file);
+//		jsonArray.prettyPrint();
 		System.out.println(jsonArray.get("phone[1].value"));
 	}
 	
