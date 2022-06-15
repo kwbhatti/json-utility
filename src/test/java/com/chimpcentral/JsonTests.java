@@ -78,19 +78,13 @@ public class JsonTests {
 		System.out.println(jsonStrObj.get("audioTracks"));
 		jsonStrObj.add("nullvalue", new JSONObject());
 		jsonStrObj.add("'nullvalue'.'null1.null1'", null);
-//		jsonStrObj.prettyPrint();
 		System.out.println(jsonStrObj.contains("'nullvalue'.'null1.null1'"));
 		System.out.println(jsonStrObj.contains("'nullvalue'"));
 		System.out.println(jsonStrObj.contains("notthere.ss"));
 		System.out.println(jsonStrObj.contains("'notthere'"));
-		
-		
-
-		
 		String filePath = System.getProperty("user.dir")+"/src/main/resources/jsonArray.json";
 		File file = new File(filePath);
 		JSONArray jsonArray = new JSONArray(file);
-//		jsonArray.prettyPrint();
 		System.out.println(jsonArray.get("phone[1].value"));
 	}
 	

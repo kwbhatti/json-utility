@@ -4,7 +4,6 @@
   	<test name="Test" >
 	    <classes>
 	      	<class name="com.chimpcentral.JsonTests"/>
-	      	<class name="com.chimpcentral.JsonComparisonTests"/>
 	    </classes>
   	</test>
 </suite>
