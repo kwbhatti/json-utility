@@ -1,91 +1,66 @@
 package com.chimpcentral;
 
 import java.io.File;
-import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import com.chimpcentral.jsons.JSONArray;
 import com.chimpcentral.jsons.JSONObject;
 
 public class JsonTests {
 
-	public static void main(String[] args) throws IOException {
-		String jsonstring = null;
-		jsonstring = "{" + 
-				"  \"new\" : [" + 
-				"    \"new1\"," +
-				"  	 \"videoFormat\"," + 
-				"    \"language\"," + 
-				"    [" +
-				"    \"test1\","  +
-				"    \"test2\""  +
-				"    ]"+
-				"  ]}";
-		jsonstring = "{" + 
-				"  \"new\" : {" + 
-				"    \"new1\" : \"new.new1value\"" + 
-				"  }," + 
-				"  \"videoFormat\" : \"1080i 50\"," + 
-				"  \"language\" : \"Albanian\"," + 
-				"  \"creditStatus\" : \"None\"," + 
-				"  \"tC.Type\" : \"EBU\"," + 
-				"  \"segments\" : [ {" + 
-				"    \"start\" : \"00:00:00:00\"," + 
-				"    \"end\" : \"00:01:01:01\"" + 
-				"  } ]," + 
-				"  \"audioTracks\" : [ {" + 
-				"    \"code\" : \"FML\"," + 
-				"    \"language\" : \"Albanian\"" + 
-				"  }, {" + 
-				"    \"code\" : \"FMR\"," + 
-				"    \"language\" : \"Albanian\"" + 
-				"  } ]," + 
-				"  \"onpremLocation\" : \"DNAP\"," + 
-				"  \"caseIdentifier\" : \"DFA/874152C\"," + 
-				"  \"deliverableType\" : \"Program Master File\"," + 
-				"  \"workflowType\" : \"TXMD\"," + 
-				"  \"email\" : \"Sandeep_Bhumana@qadci.com\"," + 
-				"  \"originalFilename\" : \"25fps_small file_162573_008_1862317_2AUD.mov\"" + 
-				"}" + 
-				"";
-		System.out.println("json string: " + jsonstring);
-		JSONObject jsonStrObj = new JSONObject(jsonstring);
-		System.out.println("json object: " + jsonStrObj);
-		System.out.println("get inner item: " + jsonStrObj.get("new[3][0]"));
-		Object value;
-		value = jsonStrObj.get("segments[0].end");
-		System.out.println(value);
-		value = jsonStrObj.get("'new'.'new1'");
-		System.out.println(value);
-		value = jsonStrObj.get("'tC.Type'");
-		System.out.println(value);
-		value = jsonStrObj.get("segments[0].end");
-		System.out.println(value);
-		value = jsonStrObj.get("new.new1");
-		System.out.println(value);
-		value = jsonStrObj.get("tC.Type");
-		System.out.println(value);
-		jsonStrObj.add("new.new2", "new1.new2.value");
-		System.out.println(jsonStrObj.get("new.new2"));
-		jsonStrObj.add("'new'.'new2.part1'", "new.new2.par1.value");
-		System.out.println(jsonStrObj.get("'new'.'new2.part1'"));
-		System.out.println(jsonStrObj.containsKey("new.new1"));
-		System.out.println(jsonStrObj.containsKey("new.new2"));
-		System.out.println(jsonStrObj.containsKey("new.neww"));
-		System.out.println(jsonStrObj.containsKey("'new'.'new2.part1'"));
-		System.out.println(jsonStrObj.containsKey("'new'.'new2.part2'"));
-		System.out.println(jsonStrObj.delete("workflowType"));
-		jsonStrObj.delete("'new'.'new2.part1'");
-		System.out.println(jsonStrObj.get("audioTracks"));
-		jsonStrObj.add("nullvalue", new JSONObject());
-		jsonStrObj.add("'nullvalue'.'null1.null1'", null);
-		System.out.println(jsonStrObj.contains("'nullvalue'.'null1.null1'"));
-		System.out.println(jsonStrObj.contains("'nullvalue'"));
-		System.out.println(jsonStrObj.contains("notthere.ss"));
-		System.out.println(jsonStrObj.contains("'notthere'"));
-		String filePath = System.getProperty("user.dir")+"/src/main/resources/jsonArray.json";
-		File file = new File(filePath);
-		JSONArray jsonArray = new JSONArray(file);
-		System.out.println(jsonArray.get("phone[1].value"));
+	private static final String USER_DIR = System.getProperty("user.dir");
+	private static final String TEST_DIR = USER_DIR + "/src/test/resources/com/chimpcentral/JsonTests";
+	private static final String EXAMPLE1_FILE_PATH = TEST_DIR + "/example1.json";
+	private static final String EXAMPLE2_FILE_PATH = TEST_DIR + "/example2.json";
+	private static final File EXAMPLE1_FILE = new File(EXAMPLE1_FILE_PATH);
+	private static final File EXAMPLE2_FILE = new File(EXAMPLE2_FILE_PATH);
+	
+	@Test
+	private void JSONObjectTest() {
+		try {
+			JSONObject jsonObject = new JSONObject(EXAMPLE1_FILE);
+			Assert.assertTrue(jsonObject.getAsString("address.street1[3]").equals("203"));
+			Assert.assertTrue(jsonObject.getAsString("'array.object.not.in.seq'.[1].prop22").equals("prop22value"));
+			Assert.assertTrue(jsonObject.getAsList("phones").size() == 3);
+			jsonObject.add("phones[]", "new phone");
+			Assert.assertTrue(jsonObject.getAsList("phones").size() == 4);
+			Assert.assertTrue(!jsonObject.contains("newnode1"));
+			Assert.assertTrue(!jsonObject.contains("newnode1.newnode2.newnode3.newnode4"));
+			jsonObject.add("newnode1.newnode2.newnode3.newnode4[]", "foo-bar");
+			Assert.assertTrue(jsonObject.contains("newnode1"));
+			Assert.assertTrue(jsonObject.contains("newnode1.newnode2.newnode3.newnode4"));
+			Assert.assertTrue(jsonObject.get("newnode1.newnode2.newnode3.newnode4[0]").equals("foo-bar"));
+			Assert.assertTrue(jsonObject.get("age").getClass().getSimpleName().equals("String"));
+			Assert.assertTrue(jsonObject.getAsString("age").equals("38"));
+			Assert.assertTrue(jsonObject.getAsInt("age") == 38);
+			Assert.assertTrue(jsonObject.contains("array.arraytest[1].two"));
+			jsonObject.delete("array.arraytest[1].two");
+			Assert.assertTrue(!jsonObject.contains("array.arraytest[1].two"));
+			Assert.assertTrue(jsonObject.getAsList("address.street1").size() == 6);
+			jsonObject.delete("address.street1[0]");
+			Assert.assertTrue(jsonObject.getAsList("address.street1").size() == 5);
+			jsonObject.delete("address.street1");
+			Assert.assertTrue(jsonObject.getAsList("street") == null);
+			jsonObject.delete("address").add("address", new JSONObject().add("street", "111 Foo Dr").add("zip", 1111).add("isSingleFamily", true));
+			Assert.assertTrue(jsonObject.get("address.street").equals("111 Foo Dr"));
+			Assert.assertTrue(jsonObject.getAsBoolean("address.isSingleFamily") == true);
+			System.out.println(jsonObject.toString());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	private void JSONArrayTest() {
+		try {
+			JSONArray jsonArray = new JSONArray(EXAMPLE2_FILE);
+			System.out.println(jsonArray);
+			Assert.assertTrue(jsonArray.get("[0].node1.node2.node3.node4[0].node5[0].node6").equals("node6 value"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 }
