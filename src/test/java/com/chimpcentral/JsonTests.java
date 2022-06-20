@@ -56,7 +56,7 @@ public class JsonTests {
 	private void JSONArrayTest() {
 		try {
 			JSONArray jsonArray = new JSONArray(EXAMPLE2_FILE);
-			System.out.println(jsonArray);
+//			System.out.println(jsonArray);
 			Assert.assertTrue(jsonArray.get("[0].node1.node2.node3.node4[0].node5[0].node6").equals("node6 value"));
 		} catch (Exception e) {
 			e.printStackTrace();
