@@ -1,0 +1,315 @@
+{
+    "data": {
+        "attributes": {
+            "metadata": {
+                "Recreate-TBMD-Flag": false,
+                "UKWorkflowType": {
+                    "workflowType": "Unassigned"
+                },
+                "afd": "1000",
+                "aspectRatio": "16:9",
+                "assetType": "Program Master",
+                "associations": {
+                    "AirMaster.1080i50": {
+                        "gcrCutId": 5067880,
+                        "gcrObjectId": 2506960,
+                        "servantObject": false
+                    },
+                    "QCProxy": {
+                        "gcrCutId": 5067880,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "gcrCutId": 5067880,
+                        "gcrObjectId": 4507458,
+                        "mfxMediaId": 63801850,
+                        "mfxVersionId": 63789111,
+                        "servantObject": false
+                    },
+                    "SdviProxy": {
+                        "gcrCutId": 5067880,
+                        "mfxMediaId": 63801852,
+                        "mfxVersionId": 63789111,
+                        "servantObject": true
+                    }
+                },
+                "creditType": "Closing Titles (No For Air)",
+                "gcrMetadata": {
+                    "AirMaster1080i50": {
+                        "cutId": 5067880,
+                        "objectId": 2506960
+                    },
+                    "QCProxy": {
+                        "cutId": 5067880,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "cutId": 5067880,
+                        "objectId": 4507458
+                    },
+                    "SdviProxy": {
+                        "cutId": 5067880,
+                        "servantObject": true
+                    }
+                },
+                "hiveMetaData": {
+                    "abstractScrid": "7945878",
+                    "abstractShowCode": "IEYKSP01",
+                    "assetTotalDuration": "00:43:37:24",
+                    "assetTotalTime": "00:43:43:00",
+                    "dealId": 314548,
+                    "dealName": "SW20: Air Jaws 2020",
+                    "dealType": "CO",
+                    "dealTypeWorkflow": "CO",
+                    "deliverableReceivedStatus": "Tech Pass",
+                    "deliverableType": "DNE Recontribution Output Master",
+                    "episodeId": 955974,
+                    "episodeName": "Air Jaws 2020",
+                    "episodeNumber": 0,
+                    "ibmsMediaIds": [
+                        "DFA/301699F",
+                        "EHD/301699G",
+                        "EHM/A301699A",
+                        "LAF/301699",
+                        "LBF/301699BR",
+                        "LSF/301699SR",
+                        "DFH/301699H",
+                        "EHD/301699E"
+                    ],
+                    "ibmsTitleId": [
+                        301699
+                    ],
+                    "originationNetwork": "Discovery Channel - US",
+                    "originationNetworkAbbrev": "DSC-US",
+                    "originationNetworkPdsId": 1,
+                    "paid": null,
+                    "premiereDate": "2020-08-13T00:00:00.000Z",
+                    "programName": "SW20: Air Jaws 2020",
+                    "propertyId": 193139,
+                    "showAbbreviation": "IEYK",
+                    "vendorId": 5794,
+                    "vendorName": "Shark Entertainment, Inc."
+                },
+                "mediaflexMetaData": {
+                    "LanguageEnglish": {
+                        "mediaId": 63801853,
+                        "versionId": 63789111
+                    },
+                    "LanguageGerman": {
+                        "mediaId": 63801851,
+                        "versionId": 63789111
+                    },
+                    "SdviMovieFile": {
+                        "mediaId": 63801850,
+                        "versionId": 63789111
+                    },
+                    "SdviProxy": {
+                        "mediaId": 63801852,
+                        "versionId": 63789111
+                    },
+                    "SdviQCReport": {
+                        "mediaId": 63801854,
+                        "versionId": 63789111
+                    }
+                },
+                "mediaflexTVStandard": "1080i / 25",
+                "onpremLocation": "GERMANY",
+                "originalWorkflowComplete": true,
+                "postEMEAStartWorkflowJob": "EMEA Copy Sdvi Movie File to LMC On Prem",
+                "proxy": {
+                    "sdviProxy": "s3://discovery.com.uat.onramp.archive.us-east-1/EMEA_DCA52068100310001_193139_000_d_1651514292431/DCA52068100310001.mp4"
+                },
+                "qcStatus": "Pass",
+                "rallyQCReports": {
+                    "QC": {
+                        "sourceVidcheckerPDF": "s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/EMEA_DCA52068100310001_193139_000_d_1651514292431.Vidchecker.pdf",
+                        "sourceVidcheckerXML": "s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/EMEA_DCA52068100310001_193139_000_d_1651514292431.Vidchecker.xml"
+                    }
+                },
+                "sdviMovieDeadline": "2022-05-04T19:19:18Z",
+                "shortName": "MASTER",
+                "userMetaData": {
+                    "audioTracks": [
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FML",
+                            "internationalAudio": true,
+                            "label": "Full Mix Stereo Left",
+                            "language": "English",
+                            "loudnessRange": "-16.91 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 1",
+                            "originalAudio": true,
+                            "peakValue": "-5.78 dB",
+                            "trackNum": 1,
+                            "typeNum": 0
+                        },
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FMR",
+                            "internationalAudio": true,
+                            "label": "Full Mix Stereo Right",
+                            "language": "English",
+                            "loudnessRange": "-16.91 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 2",
+                            "originalAudio": true,
+                            "peakValue": "-5.78 dB",
+                            "trackNum": 2,
+                            "typeNum": 1
+                        },
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FML",
+                            "label": "Full Mix Stereo Left",
+                            "language": "German",
+                            "loudnessRange": "-17.35 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 3",
+                            "originalAudio": true,
+                            "peakValue": "-6.35 dB",
+                            "trackNum": 3,
+                            "typeNum": 2
+                        },
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FMR",
+                            "label": "Full Mix Stereo Right",
+                            "language": "German",
+                            "loudnessRange": "-17.35 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 4",
+                            "originalAudio": true,
+                            "peakValue": "-6.35 dB",
+                            "trackNum": 4,
+                            "typeNum": 3
+                        }
+                    ],
+                    "contentExplorerId": "DCA52068100310001",
+                    "creditStatus": "Closing Titles (No For",
+                    "featureEvents": {
+                        "events": []
+                    },
+                    "materialType": "Full",
+                    "originalAudioTracks": [
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FML",
+                            "internationalAudio": true,
+                            "label": "Full Mix Stereo Left",
+                            "language": "German",
+                            "loudnessRange": "-16.91 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 1",
+                            "peakValue": "-5.78 dB",
+                            "trackNum": 1,
+                            "typeNum": 0
+                        },
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FMR",
+                            "internationalAudio": true,
+                            "label": "Full Mix Stereo Right",
+                            "language": "German",
+                            "loudnessRange": "-16.91 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 2",
+                            "peakValue": "-5.78 dB",
+                            "trackNum": 2,
+                            "typeNum": 1
+                        },
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FML",
+                            "label": "Full Mix Stereo Left",
+                            "language": "English",
+                            "loudnessRange": "-17.35 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 3",
+                            "peakValue": "-6.35 dB",
+                            "trackNum": 3,
+                            "typeNum": 2
+                        },
+                        {
+                            "audioLoudnessValue": "-23.00 LKFS",
+                            "code": "FMR",
+                            "label": "Full Mix Stereo Right",
+                            "language": "English",
+                            "loudnessRange": "-17.35 LU",
+                            "mixName": "Stereo",
+                            "name": "Audio Track 4",
+                            "peakValue": "-6.35 dB",
+                            "trackNum": 4,
+                            "typeNum": 3
+                        }
+                    ],
+                    "paddedSegments": {
+                        "credit": {
+                            "inPoint": "00:43:18:00",
+                            "outPoint": "00:43:37:24",
+                            "segmentType": "Closing Titles (No For Air)"
+                        },
+                        "segments": [
+                            {
+                                "duration": "00:43:37:24",
+                                "endTime": "00:43:37:24",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "00:00:00:00",
+                                "woo": []
+                            }
+                        ]
+                    },
+                    "segments": {
+                        "credit": {
+                            "inPoint": "00:43:18:00",
+                            "outPoint": "00:43:37:24",
+                            "segmentType": "Closing Titles (No For Air)"
+                        },
+                        "segments": [
+                            {
+                                "duration": "00:43:37:24",
+                                "endTime": "00:43:37:24",
+                                "segmentIndex": 1,
+                                "segmentType": "Segment",
+                                "startTime": "00:00:00:00",
+                                "woo": []
+                            }
+                        ]
+                    },
+                    "sniVersion": {
+                        "scrid": "11411115",
+                        "showCode": "IEYKSP01M9H"
+                    }
+                }
+            },
+            "updatedAt": 1651771053149
+        },
+        "id": "696805",
+        "links": {
+            "self": "https://discovery-uat.sdvi.com/api/v2/userMetadata/696805"
+        },
+        "meta": {
+            "generatedAt": 1654449684568,
+            "schema": {
+                "generator": "monkey",
+                "generatorSha": "8dd977379",
+                "sha": "010ac0a44ae41eef18a58e47d507d58a0cd79ed9a47a176cc3cad26b92e13005",
+                "version": 1
+            }
+        },
+        "relationships": {
+            "organization": {
+                "data": {
+                    "id": "1",
+                    "type": "organizations"
+                },
+                "links": {
+                    "self": "https://discovery-uat.sdvi.com/api/v2/organizations/1"
+                }
+            }
+        },
+        "type": "userMetadata"
+    }
+}

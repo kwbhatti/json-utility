@@ -1,0 +1,106 @@
+{
+    "address": {
+        "street1": [
+            "201",
+            "201",
+            "202",
+            "203",
+            "204",
+            "205"
+        ],
+        "zip": 20002,
+        "zip2": 20034,
+        "state": "VA",
+        "addressnotinrequest2": "value for addres not in 2"
+    },
+    "arryobjectnotinseq": [
+        {
+            "prop1": "prop1value",
+            "prop2": "prop2value"
+        },
+        {
+            "prop12": "prop12value",
+            "prop22": "prop22value"
+        }
+    ],
+    "phones": [
+        {
+            "type": "cell",
+            "number": "99999999"
+        },
+        {
+            "type": "home",
+            "number": "3333333"
+        },
+        {
+            "number": "111111"
+        }
+    ],
+    "arrayarray2": [
+        [
+            {
+                "obj1": {
+                    "prop1": "prop1val1",
+                    "prop2": "prop1val2",
+                    "prop3": "prop1val3"
+                }
+            }
+        ]
+    ],
+    "jsonchild1": {
+        "jsonchild2": {
+            "jsonchildp": "jsonvalue"
+        }
+    },
+    "empty": null,
+    "array": {
+        "arraytest": [
+            {
+                "one": "oneval"
+            },
+            {
+                "two": "twoval"
+            }
+        ]
+    },
+    "arrayarray": [
+        [
+            "arrayarray1.1",
+            "arrayarray1.2"
+        ],
+        [
+            "arrayarray2.1",
+            "arrayarray2.2"
+        ]
+    ],
+    "arraynew": [
+        "foo"
+    ],
+    "name": "khurram",
+    "array2": {
+        "arraytest": [
+            {
+                "one": [
+                    "value1",
+                    "value2"
+                ]
+            },
+            {
+                "two": [
+                    "value1",
+                    "value2"
+                ]
+            }
+        ]
+    },
+    "emptyArray": [],
+    "add1": {
+        "add2": {
+            "add3": {
+                "add4": []
+            }
+        }
+    },
+    "age": "37",
+    "addition": "addition value"
+}

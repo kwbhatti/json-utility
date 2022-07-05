@@ -1,8 +1,12 @@
 {
     "name": "khurram",
     "age": "37",
+    "arraynew": [
+    	"foo"
+    ],
+    "emptyArray": [],
     "address": {
-        "street.1": [
+        "street1": [
             "201",
             "201",
             "202",
@@ -49,10 +53,41 @@
             }
         ]
     },
+    "array2": {
+        "arraytest": [
+            {
+                "one": [
+                	"value1",
+                	"value2"
+                ]
+            },
+            {
+                "two": [
+                	"value1",
+                	"value2"
+                ]
+            }
+        ]
+    },
     "addition": "addition value",
     "jsonchild1": {
         "jsonchild2": {
             "jsonchildp": "jsonvalue"
         }
-    }
+    },
+    "arrayarray": [
+        ["arrayarray1.1", "arrayarray1.2"],
+        ["arrayarray2.1", "arrayarray2.2"]
+    ],
+    "arrayarray2": [
+        [
+        	{
+        		"obj1": {
+        			"prop1": "prop1val1",
+        			"prop2": "prop1val2",
+        			"prop3": "prop1val3"
+        		}
+        	}
+        ]
+    ]
 }

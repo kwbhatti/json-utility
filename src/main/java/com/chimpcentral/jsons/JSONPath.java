@@ -140,6 +140,7 @@ class JSONPath {
 	private <V> JSONObject add(JSONObject jsonObject, String jsonpath, V value) {
 		String parentPath = JSONPathUtility.removeLastNode(jsonpath);
 		String nodepath = JSONPathUtility.getLastNode(jsonpath);
+		boolean isParentNodePath = JSONPathUtility.isLastNode(jsonpath);
 		if (!parentPath.equals("")) {
 			boolean doesParentExist = doesParentExist(jsonObject, jsonpath);
 			if (!doesParentExist) {
@@ -153,7 +154,9 @@ class JSONPath {
 		boolean isArrayNodePath = JSONPathUtility.isArrayNode(nodepath);
 		if (isArrayNodePath) {
 			String nodepathValue = JSONPathUtility.getNodeValueFromArrayNodepath(nodepath);
-			boolean doesNodeExist = jsonObject.contains(parentPath + "." + nodepathValue);
+			boolean doesNodeExist = false;
+			if (isParentNodePath) doesNodeExist = jsonObject.contains(nodepathValue);
+			else doesNodeExist = jsonObject.contains(parentPath + "." + nodepathValue);
 			if (!doesNodeExist) jsonObject.getAsObjectsMap(parentPath).put(nodepathValue, new ArrayList<>());
 			else {
 				if (doesNodeIndexExist(nodepath)) {
