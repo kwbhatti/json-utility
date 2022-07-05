@@ -23,7 +23,9 @@ public class JsonTests {
 	private static final File EXAMPLE1_FILE = new File(EXAMPLE1_FILE_PATH);
 	private static final File EXAMPLE2_FILE = new File(EXAMPLE2_FILE_PATH);
 	private static final File REQUEST1_FILE = new File(REQUEST1_FILE_PATH);
+	@SuppressWarnings("unused")
 	private static final File REQUEST2_FILE = new File(REQUEST2_FILE_PATH);
+	@SuppressWarnings("unused")
 	private static final File REQUEST3_FILE = new File(REQUEST3_FILE_PATH);
 	private static final File REQUEST4_FILE = new File(REQUEST4_FILE_PATH);
 	
