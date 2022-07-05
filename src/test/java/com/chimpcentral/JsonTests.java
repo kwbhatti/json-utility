@@ -104,9 +104,7 @@ public class JsonTests {
 		jsonObject.delete("node1.node2");
 		jsonObject.delete("arrayarray[0]");
 		jsonObject.delete("array2.arraytest[0].one[1]");
-		JSONObject newJsonObject = jsonObject.clone();
 		jsonObject.containsKey("");
-		System.out.println(newJsonObject);
 		System.out.println(jsonObject);
 	}
 	

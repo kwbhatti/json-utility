@@ -79,6 +79,15 @@ public class JSONPathUtility {
 		return Integer.valueOf(nodepath.substring(nodepath.indexOf("[") + 1, nodepath.indexOf("]")));
 	}
 	
+	public static boolean doesArrayNodepathHasIndex(String nodepath) {
+		try {
+			getArrayIndexFromArrayNodepath(nodepath);
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
+	}
+	
 	public static String getPathWithoutLastArrary(String jsonpath) {
 		String jsonpathWithoutLastNode = removeLastNode(jsonpath);
 		String finalNodePath = getLastNode(jsonpath);

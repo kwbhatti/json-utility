@@ -94,16 +94,20 @@ class JSONPath {
 	}
 	
 	private boolean contains(JSONObject jsonObject, String jsonpath) {
-		boolean isParentNode = JSONPathUtility.isLastNode(jsonpath);
+		String updateJsonpath = null;
+		if (jsonpath.startsWith(".")) updateJsonpath = jsonpath.substring(1);
+		else updateJsonpath = jsonpath;
+		System.out.println(updateJsonpath);
+		boolean isParentNode = JSONPathUtility.isLastNode(updateJsonpath);
 		if (isParentNode) {
-			if (jsonpath.startsWith("'") && jsonpath.endsWith("'")) {
-				jsonpath = jsonpath.substring(1, jsonpath.length() -1);
+			if (updateJsonpath.startsWith("'") && updateJsonpath.endsWith("'")) {
+				updateJsonpath = updateJsonpath.substring(1, updateJsonpath.length() -1);
 			}
-			boolean doesRootNodeExists = jsonObject.containsKey(jsonpath);
+			boolean doesRootNodeExists = jsonObject.containsKey(updateJsonpath);
 			return doesRootNodeExists;
 		}
-		List<String> nodes = JSONPathUtility.getNodes(jsonpath);
-		String searchPath = "'" + JSONPathUtility.getFirstNode(jsonpath) + "'";
+		List<String> nodes = JSONPathUtility.getNodes(updateJsonpath);
+		String searchPath = "'" + JSONPathUtility.getFirstNode(updateJsonpath) + "'";
 		for (int i = 1; i < nodes.size(); i++) {
 			searchPath = searchPath + ".'" + nodes.get(i) + "'";
 			try {
@@ -141,11 +145,11 @@ class JSONPath {
 		String parentPath = JSONPathUtility.removeLastNode(jsonpath);
 		String nodepath = JSONPathUtility.getLastNode(jsonpath);
 		boolean isParentNodePath = JSONPathUtility.isLastNode(jsonpath);
+		String parentNodePath = JSONPathUtility.getLastNode(parentPath);
+		boolean isParentNodePathArray = JSONPathUtility.isArrayNode(parentNodePath);
 		if (!parentPath.equals("")) {
 			boolean doesParentExist = doesParentExist(jsonObject, jsonpath);
 			if (!doesParentExist) {
-				String parentNodePath = JSONPathUtility.getLastNode(parentPath);
-				boolean isParentNodePathArray = JSONPathUtility.isArrayNode(parentNodePath);
 				Object parentNode = isParentNodePathArray ? new JSONArray() : new JSONObject();
 				add(jsonObject, parentPath, parentNode);
 				add(jsonObject, jsonpath, value);
