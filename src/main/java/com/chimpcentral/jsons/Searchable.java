@@ -14,7 +14,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as String
 	 */
 	public default String getAsString(String jsonpath) {
 		return String.valueOf(get(jsonpath));
@@ -25,7 +25,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as boolean
 	 */
 	public default boolean getAsBoolean(String jsonpath) {
 		String valueStr = getAsString(jsonpath);
@@ -38,7 +38,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as int
 	 */
 	public default int getAsInt(String jsonpath) {
 		return Integer.valueOf(getAsString(jsonpath));
@@ -49,7 +49,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as double
 	 */
 	public default double getAsDouble(String jsonpath) {
 		return Double.valueOf(getAsString(jsonpath));
@@ -60,7 +60,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as float
 	 */
 	public default float getAsFloat(String jsonpath) {
 		return Float.valueOf(getAsString(jsonpath));
@@ -71,7 +71,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as long
 	 */
 	public default long getAsLong(String jsonpath) {
 		return Long.valueOf(getAsString(jsonpath));
@@ -82,7 +82,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as short
 	 */
 	public default short getAsShort(String jsonpath) {
 		return Short.valueOf(getAsString(jsonpath));
@@ -93,7 +93,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as JSONObject
 	 */
 	public default JSONObject getAsJSONObject(String jsonpath) {
 		return new JSONObject(getAsMap(jsonpath));
@@ -104,7 +104,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as JSONArray
 	 */
 	public default JSONArray getAsJSONArray(String jsonpath) {
 		return new JSONArray(getAsList(jsonpath));
@@ -115,7 +115,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as Map<?, ?>
 	 */
 	public default Map<?, ?> getAsMap(String jsonpath) {
 		return (Map<?, ?>) get(jsonpath);
@@ -126,7 +126,7 @@ interface Searchable {
 	 * @see com.chimpcentral.jsons.JSONObject#get(String)
 	 * @see com.chimpcentral.jsons.JSONArray#get(String)
 	 * @param jsonpath
-	 * @return
+	 * @return value from JSON Path as List<?>
 	 */
 	public default List<?> getAsList(String jsonpath) {
 		return (List<?>) get(jsonpath);

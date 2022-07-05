@@ -73,6 +73,7 @@ public class JSONArray extends ArrayList<Object> implements Searchable, Mutable<
 	 * <br>Example: myJSONArray.get("[0].node1.node2.node3.node4");
 	 * <br>Example (nested array): myJSONArray.get("[0].node1.node2.nestedNode3[1].node4");
 	 * <br>Example (dot in node): myJSONArray.get("[0].node1.'node.with.dot'.node3");
+	 * @return value from the path as an Object
 	 */
 	@Override
 	public Object get(String jsonpath) {
@@ -85,6 +86,7 @@ public class JSONArray extends ArrayList<Object> implements Searchable, Mutable<
 	 * <br>Example: myJSONArray.contains("[0].node1.node2.node3.node4");
 	 * <br>Example (nested array): myJSONArray.contains("[0].node1.node2.nestedNode3[1].node4");
 	 * <br>Example (dot in node): myJSONArray.contains("[0].node1.'node.with.dot'.node3");
+	 * @return if JSONpath exists in JSONArray
 	 */
 	@Override
 	public boolean contains(String jsonpath) {
@@ -105,6 +107,7 @@ public class JSONArray extends ArrayList<Object> implements Searchable, Mutable<
 	 * <br>Example (nested array): myJSONArray.contains("[0].node1.node2.nestedNode3[]");
 	 * <br>In the above case the nested array node can only happen at the final child
 	 * <br>Example (dot in node): myJSONArray.contains("[0].node1.'node.with.dot'.node3");
+	 * @return object of this Class
 	 */
 	@Override
 	public <V> JSONArray add(String jsonpath, V value) {
@@ -124,7 +127,8 @@ public class JSONArray extends ArrayList<Object> implements Searchable, Mutable<
 	 * Example JSONArray: JSONArray myJSONArray = new JSONArray({object goes here});
 	 * <br>Example: myJSONArray.delete("[0].node1.node2.node3.node4");
 	 * <br>Example (nested array): myJSONArray.delete("[0].node1.node2.nestedNode3[1].node4");
-	 * <br>Example (dot in node): myJSONArray.delete("[0].node1.'node.with.dot'.node3");	 
+	 * <br>Example (dot in node): myJSONArray.delete("[0].node1.'node.with.dot'.node3");	
+	 * @return object of this Class 
 	 */
 	@Override
 	public JSONArray delete(String jsonpath) {
@@ -140,6 +144,7 @@ public class JSONArray extends ArrayList<Object> implements Searchable, Mutable<
 	
 	/**
 	 * Converts the JSONArray into a JSON String
+	 * @return JSON String of this Class
 	 */
 	@Override
 	public String toString() {

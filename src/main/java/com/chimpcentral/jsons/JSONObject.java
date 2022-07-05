@@ -70,6 +70,7 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	 * <br>Example: myJSONObject.get("node1.node2.node3.node4");
 	 * <br>Example (nested array): myJSONObject.get("node1.node2.nestedNode3[1].node4");
 	 * <br>Example (dot in node): myJSONObject.get("node1.'node.with.dot'.node3");
+	 * @return value from the path as an Object
 	 */
 	@Override
 	public Object get(String jsonpath) {
@@ -82,6 +83,7 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	 * <br>Example: myJSONObject.contains("node1.node2.node3.node4");
 	 * <br>Example (nested array): myJSONObject.contains("node1.node2.nestedNode3[1].node4");
 	 * <br>Example (dot in node): myJSONObject.contains("node1.'node.with.dot'.node3");
+	 * @return if JSONpath exists in JSONArray
 	 */
 	@Override
 	public boolean contains(String jsonpath) {
@@ -99,6 +101,7 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	 * <br>Example (nested array): myJSONObject.contains("node1.node2.nestedNode3[]");
 	 * <br>In the above case the nested array node can only happen at the final child
 	 * <br>Example (dot in node): myJSONObject.contains("node1.'node.with.dot'.node3");
+	 * @return object of this Class 
 	 */
 	@Override
 	public <V> JSONObject add(String jsonpath, V value) {
@@ -111,7 +114,8 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	 * Example JSONObject: JSONObject myJSONObject = new JSONObject({object goes here});
 	 * <br>Example: myJSONObject.delete("node1.node2.node3.node4");
 	 * <br>Example (nested array): myJSONObject.delete("node1.node2.nestedNode3[1].node4");
-	 * <br>Example (dot in node): myJSONObject.delete("node1.'node.with.dot'.node3");	 
+	 * <br>Example (dot in node): myJSONObject.delete("node1.'node.with.dot'.node3");
+	 * @return object of this Class 
 	 */
 	@Override
 	public JSONObject delete(String jsonpath) {
@@ -120,6 +124,7 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	
 	/**
 	 * Converts the JSONObject into a JSON String
+	 * @return JSON String of this Class
 	 */
 	@Override
 	public String toString() {
