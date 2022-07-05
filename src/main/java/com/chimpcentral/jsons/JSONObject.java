@@ -5,6 +5,8 @@ import java.io.IOException;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
+import java.util.function.BiFunction;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
@@ -38,6 +40,11 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	}
 	
 	@Override
+	public Object get(Object key) {
+		return super.get(key);
+	}
+	
+	@Override
 	public Object get(String jsonpath) {
 		return jsonPath(jsonpath).getFromJSONObject();
 	}
@@ -55,6 +62,46 @@ public class JSONObject extends HashMap<Object, Object> implements Searchable, M
 	@Override
 	public JSONObject delete(String jsonpath) {
 		return jsonPath(jsonpath).deleteFromJSONObject();
+	}
+	
+	@Override
+	public void clear() {
+		super.clear();
+	}
+	
+	@Override
+    public JSONObject clone() {
+		return (JSONObject) super.clone();
+	}
+	
+	@Override
+    public Object compute(
+    				Object key,
+                    BiFunction<
+	                    ? super Object, 
+	                    ? super Object, 
+	                    ? extends Object> remappingFunction) {
+		return super.compute(key, remappingFunction);
+	}
+	
+	@Override
+	public boolean containsKey(Object key) {
+		return super.containsKey(key);
+	}
+	
+	@Override
+	public boolean containsValue(Object value) {
+		return super.containsValue(value);
+	}
+	
+	@Override
+	public Set<Map.Entry<Object, Object>> entrySet() {
+		return super.entrySet();
+	}
+	
+	@Override
+	public boolean equals(Object object) {
+		return super.equals(object);
 	}
 	
 	@Override

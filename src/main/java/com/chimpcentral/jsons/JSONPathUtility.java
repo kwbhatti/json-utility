@@ -90,4 +90,5 @@ public class JSONPathUtility {
 		String finalNodePath = getLastNode(jsonpath);
 		return getArrayIndexFromArrayNodepath(finalNodePath);
 	}
+	
 }

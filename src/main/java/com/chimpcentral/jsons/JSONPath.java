@@ -95,13 +95,20 @@ class JSONPath {
 	
 	private boolean contains(JSONObject jsonObject, String jsonpath) {
 		boolean isParentNode = JSONPathUtility.isLastNode(jsonpath);
-		if (isParentNode) return jsonObject.containsKey(jsonpath);
+		if (isParentNode) {
+			if (jsonpath.startsWith("'") && jsonpath.endsWith("'")) {
+				jsonpath = jsonpath.substring(1, jsonpath.length() -1);
+			}
+			boolean doesRootNodeExists = jsonObject.containsKey(jsonpath);
+			return doesRootNodeExists;
+		}
 		List<String> nodes = JSONPathUtility.getNodes(jsonpath);
-		String searchPath = JSONPathUtility.getFirstNode(jsonpath);;
+		String searchPath = "'" + JSONPathUtility.getFirstNode(jsonpath) + "'";
 		for (int i = 1; i < nodes.size(); i++) {
-			searchPath = searchPath + "." + nodes.get(i);
+			searchPath = searchPath + ".'" + nodes.get(i) + "'";
 			try {
-				if (jsonObject.get(searchPath) == null) return false; 
+				boolean doesPathExist = jsonObject.get(searchPath) != null;
+				if (!doesPathExist) return false;
 			} catch (Exception e) {
 				return false;
 			}
@@ -169,14 +176,11 @@ class JSONPath {
 			jsonpath = parentPath + "." + JSONPathUtility.getNodeValueFromArrayNodepath(nodepath);
 			int nodePathIndex = JSONPathUtility.getArrayIndexFromArrayNodepath(nodepath);
 			if (!contains(jsonObject, jsonpath)) {
-				System.out.println("jsonobject does not contain path: " + jsonpath);
 				return jsonObject;
 			}
 			if (isParentPathArray) {
 				List<Object> nodeArray = jsonObject.getAsObjectsList(jsonpath);
-				System.out.println("nodeArray: " + nodeArray);
 				nodeArray.remove(nodePathIndex);
-				System.out.println("node array: " + nodeArray);
 				add(jsonObject, jsonpath, nodeArray);
 			} else jsonObject.getAsObjectsList(jsonpath).remove(nodePathIndex);
 		} else {
