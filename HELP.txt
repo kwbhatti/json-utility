@@ -25,3 +25,6 @@ mvn -Pcore -Pdoc -Pgithub-deploy -DtestngFile=testng.xml clean deploy
 
 Release version 4.0.0 2/4/2023
 	-Json Comparison to find list elements using scores
+	
+Release version 4.0.1 2/4/2023
+	-Json Comparison bug with jsonpath for arrays

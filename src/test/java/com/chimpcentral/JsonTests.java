@@ -162,7 +162,7 @@ public class JsonTests {
 		file.createNewFile();
 		JSONObject jsonObj1 = new JSONObject(JSON_ARRAY_COMPARISON1_FILE);
 		JSONObject jsonObj2 = new JSONObject(JSON_ARRAY_COMPARISON2_FILE);
-		System.out.println(jsonObj1);
+		System.out.println(jsonObj1.get("'data'.'attributes'.'metadata'.'compressedSegments[6]'.dst_duration_nominal"));
 		System.out.println(jsonObj2);
 		System.out.println(jsonObj1.get("array1[4].name"));
 		JsonComparison jsonComparison = new JsonComparison(jsonObj1, jsonObj2, true);

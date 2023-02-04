@@ -139,7 +139,6 @@ class FindMissing extends Find {
 			int totalScore = firstObjectMap.keySet().size() * 10;
 			int matchPercentage = bestMatchScore * 100 / totalScore;			
 			if (matchPercentage > 60) {
-				System.out.println("Match: first index: " + firstListIndex + " second index: " + bestMatchIndex);
 				mappingMap.put(firstListIndex, bestMatchIndex);
 			}			
 			firstListIndex++;
@@ -151,7 +150,7 @@ class FindMissing extends Find {
 			secondListJsonObjects.add(secondJsonObject.get(jsonpath + "[" + mappingEntry.getValue() + "]"));
 		}
 		for (int i = 0; i < firstList.size(); i++) {
-			String arrayPath = jsonpath + "[" + i + "]";
+			String arrayPath = jsonpath.substring(0, jsonpath.length() - 1) + "[" + i + "]'";
 			if (!mappingMap.keySet().contains(i)) {
 				if (resultType == entriesMissingFromLeft) {
 					differences.add(jsonpath, null, firstJsonObject.getAsJSONObject(arrayPath), entriesMissingFromLeft);
@@ -161,12 +160,11 @@ class FindMissing extends Find {
 			}
 		}
 		for (int i = 0; i < secondList.size(); i++) {
-			String arrayPath = jsonpath + "[" + i + "]";
+			String arrayPath = jsonpath.substring(0, jsonpath.length() - 1) + "[" + i + "]'";
 			if (!mappingMap.values().contains(i)) {
 				if (resultType == ResultType.entriesMissingFromLeft) {
 					differences.add(jsonpath, secondJsonObject.getAsJSONObject(arrayPath), null, entriesMissingFromRight);
 				} else if (resultType == ResultType.entriesMissingFromRight) {
-					System.out.println("values: entriesMissingFromRight");
 					differences.add(jsonpath, null, firstJsonObject.getAsJSONObject(arrayPath), entriesMissingFromLeft);
 				}
 			}

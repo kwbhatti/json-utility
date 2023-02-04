@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.chimp-central</groupId>
 	<artifactId>json-utility</artifactId>
-	<version>4.0.0</version>
+	<version>4.0.1</version>
 	<name>JSON Utility</name>
 	<description>Create/Manupilate/Compare JSON Objects</description>
 	<url>https://chimp-central.com/</url>
