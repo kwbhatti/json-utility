@@ -76,13 +76,14 @@ class JSONPath {
 			nodepath = JSONPathUtility.getNodeValueFromArrayNodepath(nodepath);
 			if (map.get(nodepath) == null) return null;
 			List<?> nodeValueAsList = convertToList(map.get(nodepath));
+			if (nodeValueAsList.size() <= nodeIndex) return null;
 			nodeValue = nodeValueAsList.get(nodeIndex);
 		} else nodeValue = map.get(nodepath);
 		return nodeValue;
 	}
 	
 	private Object get(Map<?, ?> map, String jsonpath) {
-		if (jsonpath.equals("")) return map;
+		if (jsonpath.equals("") || jsonpath.equals(".")) return map;
 		if (jsonpath.startsWith(".")) jsonpath = jsonpath.replaceFirst("\\.", "");
 		String nodepath = JSONPathUtility.getFirstNode(jsonpath);
 		boolean isLastNode = JSONPathUtility.isLastNode(jsonpath);
@@ -97,14 +98,12 @@ class JSONPath {
 		String updateJsonpath = null;
 		if (jsonpath.startsWith(".")) updateJsonpath = jsonpath.substring(1);
 		else updateJsonpath = jsonpath;
-		System.out.println(updateJsonpath);
 		boolean isParentNode = JSONPathUtility.isLastNode(updateJsonpath);
 		if (isParentNode) {
 			if (updateJsonpath.startsWith("'") && updateJsonpath.endsWith("'")) {
 				updateJsonpath = updateJsonpath.substring(1, updateJsonpath.length() -1);
 			}
-			boolean doesRootNodeExists = jsonObject.containsKey(updateJsonpath);
-			return doesRootNodeExists;
+			return jsonObject.containsKey(updateJsonpath);
 		}
 		List<String> nodes = JSONPathUtility.getNodes(updateJsonpath);
 		String searchPath = "'" + JSONPathUtility.getFirstNode(updateJsonpath) + "'";

@@ -8,7 +8,7 @@
 	<url>https://chimp-central.com/</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<maven.source.plugin>3.2.1</maven.source.plugin>
 		<maven.javadoc.plugin>3.2.0</maven.javadoc.plugin>
 		<testng.version>6.14.3</testng.version>

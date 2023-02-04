@@ -1,0 +1,33 @@
+{
+    "array1": [
+    	{
+    		"name": "Ayra",
+    		"age": 6,
+    		"gender": "female",
+    		"address": "100 Test Dr"
+    	},
+    	{
+    		"name": "Rayaan",
+    		"age": 11,
+    		"gender": "male",
+    		"address": "100 Test Dr"
+    	},
+        {
+    		"name": "Khurram",
+    		"age": 38,
+    		"gender": "male",
+    		"address": "100 Test Dr"
+    	},
+    	{
+    		"name": "Faaris",
+    		"age": 16,
+    		"gender": "male",
+    		"address": "101 Test Dr"
+    	}
+    ],
+    "array2": [
+    	"blue",
+    	"red",
+    	"black"
+    ]
+}

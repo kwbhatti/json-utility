@@ -17,12 +17,10 @@ abstract class Find {
 	}
 	
 	boolean objectIsMap(Object object) {
-		if (object instanceof Map<?, ?>) return true;
-		return false;
+		return object instanceof Map<?, ?>;
 	}
 	
 	boolean objectIsList(Object object) {
-		if (object instanceof List<?>) return true;
-		return false;
+		return object instanceof List<?>;
 	}
 }

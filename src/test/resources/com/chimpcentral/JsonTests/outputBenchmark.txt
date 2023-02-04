@@ -1,0 +1,2451 @@
+
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'premiereDate'
+leftMapValue: 2020-03-18
+rightMapValue: null
+whichValue: entriesMissingFromRight
+*************************************************
+Property: 'data'.'attributes'.'updatedAt'
+leftMapValue: 1675328209878
+rightMapValue: null
+whichValue: entriesMissingFromRight
+*************************************************
+Property: 'data'.'meta'
+leftMapValue: {generatedAt=1675328432054, schema={generator=monkey, generatorSha=63b85e170, sha=010ac0a44ae41eef18a58e47d507d58a0cd79ed9a47a176cc3cad26b92e13005, version=1}}
+rightMapValue: null
+whichValue: entriesMissingFromRight
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94'.'sourceLabel'
+leftMapValue: SdviMovieFile
+rightMapValue: SdviMovieFile
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94'.'type'
+leftMapValue: video
+rightMapValue: video
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'sourceLabel'
+leftMapValue: SdviMovieFile
+rightMapValue: SdviMovieFile
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'sourceTracks[0]'
+leftMapValue: 0
+rightMapValue: 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'sourceTracks[1]'
+leftMapValue: 1
+rightMapValue: 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'type'
+leftMapValue: audio
+rightMapValue: audio
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'AirMaster1080i59.94'.'servantObject'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'CaptionEnglish1080i59.94'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'QCProxy'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviMovieFile'.'servantObject'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviProxy'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'autoAQCComplete'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'autoAQCDesired'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'autoAQCFinished'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'autoAQCPass'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseAttributes'.'caseParameters'.'aspectRatio'
+leftMapValue: 16:9
+rightMapValue: 16:9
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseAttributes'.'caseParameters'.'clockType'
+leftMapValue: Cut To Clock
+rightMapValue: Cut To Clock
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseAttributes'.'caseParameters'.'format'
+leftMapValue: HD
+rightMapValue: HD
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseAttributes'.'caseSummary'
+leftMapValue: DC, 16:9, HD, CTC
+rightMapValue: DC, 16:9, HD, CTC
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseAttributes'.'caseTypes'.'durationChangeInd'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseAttributes'.'primaryCaseType'
+leftMapValue: durationChange
+rightMapValue: durationChange
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseVersionName'
+leftMapValue: DC_Wormhole Compression
+rightMapValue: DC_Wormhole Compression
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'dst_duration_nominal'
+leftMapValue: 00:01:05;00
+rightMapValue: 00:01:05;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'dst_end_frame_idx'
+leftMapValue: 107141
+rightMapValue: 107141
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'dst_end_timecode'
+leftMapValue: 00:59:34;29
+rightMapValue: 00:59:34;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'dst_frame_count'
+leftMapValue: 1948
+rightMapValue: 1948
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'dst_start_frame_idx'
+leftMapValue: 105194
+rightMapValue: 105194
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'dst_start_timecode'
+leftMapValue: 00:58:30;00
+rightMapValue: 00:58:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'src_duration_nominal'
+leftMapValue: 00:01:05;00
+rightMapValue: 00:01:05;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'src_end_frame_idx'
+leftMapValue: 1947
+rightMapValue: 1947
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'src_end_timecode'
+leftMapValue: 00:59:34;29
+rightMapValue: 00:59:34;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'src_frame_count'
+leftMapValue: 1948
+rightMapValue: 1948
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'src_start_frame_idx'
+leftMapValue: 0
+rightMapValue: 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'src_start_timecode'
+leftMapValue: 00:58:30;00
+rightMapValue: 00:58:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'time_delta'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'dst_duration_nominal'
+leftMapValue: 00:00:15;01
+rightMapValue: 00:00:15;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'dst_end_frame_idx'
+leftMapValue: 107592
+rightMapValue: 107592
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'dst_end_timecode'
+leftMapValue: 00:59:50;00
+rightMapValue: 00:59:50;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'dst_frame_count'
+leftMapValue: 451
+rightMapValue: 451
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'dst_start_frame_idx'
+leftMapValue: 107142
+rightMapValue: 107142
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'dst_start_timecode'
+leftMapValue: 00:59:35;00
+rightMapValue: 00:59:35;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'src_duration_nominal'
+leftMapValue: 00:00:15;01
+rightMapValue: 00:00:15;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'src_end_frame_idx'
+leftMapValue: 2398
+rightMapValue: 2398
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'src_end_timecode'
+leftMapValue: 00:59:50;00
+rightMapValue: 00:59:50;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'src_frame_count'
+leftMapValue: 451
+rightMapValue: 451
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'src_start_frame_idx'
+leftMapValue: 1948
+rightMapValue: 1948
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'src_start_timecode'
+leftMapValue: 00:59:35;00
+rightMapValue: 00:59:35;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'time_delta'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'dst_duration_nominal'
+leftMapValue: 00:00:09;29
+rightMapValue: 00:00:09;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'dst_end_frame_idx'
+leftMapValue: 107891
+rightMapValue: 107891
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'dst_end_timecode'
+leftMapValue: 00:59:59;29
+rightMapValue: 00:59:59;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'dst_frame_count'
+leftMapValue: 299
+rightMapValue: 299
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'dst_start_frame_idx'
+leftMapValue: 107593
+rightMapValue: 107593
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'dst_start_timecode'
+leftMapValue: 00:59:50;01
+rightMapValue: 00:59:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'src_duration_nominal'
+leftMapValue: 00:00:09;29
+rightMapValue: 00:00:09;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'src_end_frame_idx'
+leftMapValue: 2697
+rightMapValue: 2697
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'src_end_timecode'
+leftMapValue: 00:59:59;29
+rightMapValue: 00:59:59;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'src_frame_count'
+leftMapValue: 299
+rightMapValue: 299
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'src_start_frame_idx'
+leftMapValue: 2399
+rightMapValue: 2399
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'src_start_timecode'
+leftMapValue: 00:59:50;01
+rightMapValue: 00:59:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'time_delta'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'dst_duration_nominal'
+leftMapValue: 00:01:30;00
+rightMapValue: 00:01:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'dst_end_frame_idx'
+leftMapValue: 110589
+rightMapValue: 110589
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'dst_end_timecode'
+leftMapValue: 01:01:29;29
+rightMapValue: 01:01:29;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'dst_frame_count'
+leftMapValue: 2698
+rightMapValue: 2698
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'dst_start_frame_idx'
+leftMapValue: 107892
+rightMapValue: 107892
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'dst_start_timecode'
+leftMapValue: 01:00:00;00
+rightMapValue: 01:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'src_duration_nominal'
+leftMapValue: 00:01:30;00
+rightMapValue: 00:01:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'src_end_frame_idx'
+leftMapValue: 5395
+rightMapValue: 5395
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'src_end_timecode'
+leftMapValue: 01:01:29;29
+rightMapValue: 01:01:29;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'src_frame_count'
+leftMapValue: 2698
+rightMapValue: 2698
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'src_start_frame_idx'
+leftMapValue: 2698
+rightMapValue: 2698
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'src_start_timecode'
+leftMapValue: 01:00:00;00
+rightMapValue: 01:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'time_delta'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'dst_duration_nominal'
+leftMapValue: 00:00:21;04
+rightMapValue: 00:00:21;04
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'dst_end_frame_idx'
+leftMapValue: 181889
+rightMapValue: 181889
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'dst_end_timecode'
+leftMapValue: 01:41:09;01
+rightMapValue: 01:41:09;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'dst_frame_count'
+leftMapValue: 634
+rightMapValue: 634
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'dst_start_frame_idx'
+leftMapValue: 181256
+rightMapValue: 181256
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'dst_start_timecode'
+leftMapValue: 01:40:47;26
+rightMapValue: 01:40:47;26
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'src_duration_nominal'
+leftMapValue: 00:00:21;04
+rightMapValue: 00:00:21;04
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'src_end_frame_idx'
+leftMapValue: 78044
+rightMapValue: 78044
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'src_end_timecode'
+leftMapValue: 01:41:54;00
+rightMapValue: 01:41:54;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'src_frame_count'
+leftMapValue: 634
+rightMapValue: 634
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'src_start_frame_idx'
+leftMapValue: 77411
+rightMapValue: 77411
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'src_start_timecode'
+leftMapValue: 01:41:32;27
+rightMapValue: 01:41:32;27
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'time_delta'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'dst_duration_nominal'
+leftMapValue: 00:00:00;29
+rightMapValue: 00:00:00;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'dst_end_frame_idx'
+leftMapValue: 181918
+rightMapValue: 181918
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'dst_end_timecode'
+leftMapValue: 01:41:10;00
+rightMapValue: 01:41:10;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'dst_frame_count'
+leftMapValue: 29
+rightMapValue: 29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'dst_start_frame_idx'
+leftMapValue: 181890
+rightMapValue: 181890
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'dst_start_timecode'
+leftMapValue: 01:41:09;02
+rightMapValue: 01:41:09;02
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'is_break'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'speed_multiplier'
+leftMapValue: 0.9667
+rightMapValue: 0.9667
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'src_duration_nominal'
+leftMapValue: 00:00:01;00
+rightMapValue: 00:00:01;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'src_end_frame_idx'
+leftMapValue: 78074
+rightMapValue: 78074
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'src_end_timecode'
+leftMapValue: 01:41:55;00
+rightMapValue: 01:41:55;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'src_frame_count'
+leftMapValue: 30
+rightMapValue: 30
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'src_start_frame_idx'
+leftMapValue: 78045
+rightMapValue: 78045
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'src_start_timecode'
+leftMapValue: 01:41:54;01
+rightMapValue: 01:41:54;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[5]'.'time_delta'
+leftMapValue: 00:00:00;01
+rightMapValue: 00:00:00;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'dst_duration_nominal'
+leftMapValue: 00:00:10;01
+rightMapValue: 00:00:10;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'dst_end_frame_idx'
+leftMapValue: 182219
+rightMapValue: 182219
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'dst_end_timecode'
+leftMapValue: 01:41:20;01
+rightMapValue: 01:41:20;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'dst_frame_count'
+leftMapValue: 301
+rightMapValue: 301
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'dst_start_frame_idx'
+leftMapValue: 181919
+rightMapValue: 181919
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'dst_start_timecode'
+leftMapValue: 01:41:10;01
+rightMapValue: 01:41:10;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'src_duration_nominal'
+leftMapValue: 00:00:10;01
+rightMapValue: 00:00:10;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'src_end_frame_idx'
+leftMapValue: 78375
+rightMapValue: 78375
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'src_end_timecode'
+leftMapValue: 01:42:05;03
+rightMapValue: 01:42:05;03
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'src_frame_count'
+leftMapValue: 301
+rightMapValue: 301
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'src_start_frame_idx'
+leftMapValue: 78075
+rightMapValue: 78075
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'src_start_timecode'
+leftMapValue: 01:41:55;01
+rightMapValue: 01:41:55;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'time_delta'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[0]'.'adjustment_method'
+leftMapValue: null
+rightMapValue: null
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[0]'.'adjustment_value'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[0]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[0]'.'label'
+leftMapValue: Snippet 0
+rightMapValue: Snippet 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[0]'.'src_end_timecode'
+leftMapValue: 00:59:34;29
+rightMapValue: 00:59:34;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[0]'.'src_start_timecode'
+leftMapValue: 00:58:30;00
+rightMapValue: 00:58:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[1]'.'adjustment_method'
+leftMapValue: null
+rightMapValue: null
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[1]'.'adjustment_value'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[1]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[1]'.'label'
+leftMapValue: Snippet 1
+rightMapValue: Snippet 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[1]'.'src_end_timecode'
+leftMapValue: 00:59:50;00
+rightMapValue: 00:59:50;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[1]'.'src_start_timecode'
+leftMapValue: 00:59:35;00
+rightMapValue: 00:59:35;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[2]'.'adjustment_method'
+leftMapValue: null
+rightMapValue: null
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[2]'.'adjustment_value'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[2]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[2]'.'label'
+leftMapValue: Snippet 2
+rightMapValue: Snippet 2
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[2]'.'src_end_timecode'
+leftMapValue: 00:59:59;29
+rightMapValue: 00:59:59;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[2]'.'src_start_timecode'
+leftMapValue: 00:59:50;01
+rightMapValue: 00:59:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[3]'.'adjustment_method'
+leftMapValue: null
+rightMapValue: null
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[3]'.'adjustment_value'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[3]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[3]'.'label'
+leftMapValue: Snippet 3
+rightMapValue: Snippet 3
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[3]'.'src_end_timecode'
+leftMapValue: 01:01:29;29
+rightMapValue: 01:01:29;29
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[3]'.'src_start_timecode'
+leftMapValue: 01:00:00;00
+rightMapValue: 01:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[4]'.'adjustment_method'
+leftMapValue: null
+rightMapValue: null
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[4]'.'adjustment_value'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[4]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[4]'.'src_end_timecode'
+leftMapValue: 01:41:54;00
+rightMapValue: 01:41:54;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[4]'.'src_start_timecode'
+leftMapValue: 01:41:32;27
+rightMapValue: 01:41:32;27
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[5]'.'adjustment_method'
+leftMapValue: auto
+rightMapValue: auto
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[5]'.'adjustment_value'
+leftMapValue: 00:00:00;01
+rightMapValue: 00:00:00;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[5]'.'is_break'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[5]'.'src_end_timecode'
+leftMapValue: 01:41:55;00
+rightMapValue: 01:41:55;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[5]'.'src_start_timecode'
+leftMapValue: 01:41:54;01
+rightMapValue: 01:41:54;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[6]'.'adjustment_method'
+leftMapValue: null
+rightMapValue: null
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[6]'.'adjustment_value'
+leftMapValue: 00:00:00;00
+rightMapValue: 00:00:00;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[6]'.'is_break'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[6]'.'src_end_timecode'
+leftMapValue: 01:42:05;03
+rightMapValue: 01:42:05;03
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[6]'.'src_start_timecode'
+leftMapValue: 01:41:55;01
+rightMapValue: 01:41:55;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionMetaData'.'compressionVersionName'
+leftMapValue: Wormhole Compression_TimeCompression_45_Seconds
+rightMapValue: Wormhole Compression_TimeCompression_45_Seconds
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'creditType'
+leftMapValue: Embedded Credits
+rightMapValue: Embedded Credits
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'CaptionEnglish1080i59.94'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'QCProxy'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'SdviProxy'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'abstractScrid'
+leftMapValue: 5631528
+rightMapValue: 5631528
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'dealType'
+leftMapValue: CO
+rightMapValue: CO
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'dealTypeWorkflow'
+leftMapValue: CO
+rightMapValue: CO
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'deliverableReceivedStatus'
+leftMapValue: Tech Pass
+rightMapValue: Tech Pass
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'deliverableType'
+leftMapValue: Wormhole Compression
+rightMapValue: Wormhole Compression
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'episodeId'
+leftMapValue: 904229
+rightMapValue: 904229
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'episodeName'
+leftMapValue: The Amazon's Cursed Ruins
+rightMapValue: The Amazon's Cursed Ruins
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'episodeNumber'
+leftMapValue: 7
+rightMapValue: 7
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'episodeTitle'
+leftMapValue: The Amazon's Cursed Ruins
+rightMapValue: The Amazon's Cursed Ruins
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'network'
+leftMapValue: Travel Channel - US
+rightMapValue: Travel Channel - US
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'originationNetwork'
+leftMapValue: Discovery Channel - US
+rightMapValue: Discovery Channel - US
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'originationNetworkPdsId'
+leftMapValue: 1
+rightMapValue: 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'programName'
+leftMapValue: Expedition X
+rightMapValue: Expedition X
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'propertyId'
+leftMapValue: 187943
+rightMapValue: 187943
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'scrid'
+leftMapValue: 5631528
+rightMapValue: 5631528
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'seasonId'
+leftMapValue: 192238
+rightMapValue: 192238
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'seasonNumber'
+leftMapValue: 1
+rightMapValue: 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'seasonTitle'
+leftMapValue: Expedition X
+rightMapValue: Expedition X
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'showId'
+leftMapValue: 159859
+rightMapValue: 159859
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'showTitle'
+leftMapValue: Expedition X
+rightMapValue: Expedition X
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'slotLength'
+leftMapValue: 3600
+rightMapValue: 3600
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviMovieFile'.'autoDownloaded'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviQCReport'.'autoDownloaded'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'deliverableReceivedStatus'
+leftMapValue: Tech Pass
+rightMapValue: Tech Pass
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexTVStandard'
+leftMapValue: 1920x1080_P_29.97_DF
+rightMapValue: 1920x1080_P_29.97_DF
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'onpremLocation'
+leftMapValue: DCTC
+rightMapValue: DCTC
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'s3KeySource'
+leftMapValue: s3://discovery.com.uat.onramp.archive.us-east-1/187943_007_PMF_2622042_1.mxf
+rightMapValue: s3://discovery.com.uat.onramp.archive.us-east-1/187943_007_PMF_2622042_1.mxf
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sdviQcReport'.'status'
+leftMapValue: submitting
+rightMapValue: submitting
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'AirMaster1080i59.94'.'gcrCutId'
+leftMapValue: 2180932
+rightMapValue: 2180932
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'AirMaster1080i59.94'.'gcrObjectId'
+leftMapValue: 1758218
+rightMapValue: 1758218
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'AirMaster1080i59.94'.'servantObject'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'CaptionEnglish1080p29.97'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'Conversion1080i59.94Xdcam'.'gcrObjectId'
+leftMapValue: 1910998
+rightMapValue: 1910998
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'Conversion1080i59.94Xdcam'.'mfxVersionId'
+leftMapValue: 71181604
+rightMapValue: 71181604
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'Conversion1080i59.94Xdcam'.'servantObject'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'QCProxy'.'mfxVersionId'
+leftMapValue: 71181604
+rightMapValue: 71181604
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'QCProxy'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviMovieFile'.'gcrObjectId'
+leftMapValue: 1910997
+rightMapValue: 1910997
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviMovieFile'.'mfxVersionId'
+leftMapValue: 71181604
+rightMapValue: 71181604
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviMovieFile'.'servantObject'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviProxy'.'mfxVersionId'
+leftMapValue: 71181604
+rightMapValue: 71181604
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviProxy'.'servantObject'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceMovieName'
+leftMapValue: 187943_007_PMF_2622042_1
+rightMapValue: 187943_007_PMF_2622042_1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceSegments'.'credit'.'inPoint'
+leftMapValue: 01:41:32;27
+rightMapValue: 01:41:32;27
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceSegments'.'credit'.'outPoint'
+leftMapValue: 01:41:54;00
+rightMapValue: 01:41:54;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceSegments'.'credit'.'segmentType'
+leftMapValue: Embedded Credits
+rightMapValue: Embedded Credits
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceSegments'.'slate'.'inPoint'
+leftMapValue: 00:59:35;00
+rightMapValue: 00:59:35;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceSegments'.'slate'.'outPoint'
+leftMapValue: 00:59:50;00
+rightMapValue: 00:59:50;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceSegments'.'slate'.'segmentType'
+leftMapValue: Slate
+rightMapValue: Slate
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'timeBeforeSlate'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'timeBetweenSlate'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'totalReTime'
+leftMapValue: 00:00:45;00
+rightMapValue: 00:00:45;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'audioLoudnessValue'
+leftMapValue: -24.59 LKFS
+rightMapValue: -24.59 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'code'
+leftMapValue: FML
+rightMapValue: FML
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'hash'
+leftMapValue: b835e07b979945499020972cc2ca99c7
+rightMapValue: b835e07b979945499020972cc2ca99c7
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'label'
+leftMapValue: Full Mix Stereo Left
+rightMapValue: Full Mix Stereo Left
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'language'
+leftMapValue: English
+rightMapValue: English
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'name'
+leftMapValue: Audio Track 1
+rightMapValue: Audio Track 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'originalAudio'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'trackNum'
+leftMapValue: 1
+rightMapValue: 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'typeNum'
+leftMapValue: 0
+rightMapValue: 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'audioLoudnessValue'
+leftMapValue: -24.59 LKFS
+rightMapValue: -24.59 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'code'
+leftMapValue: FMR
+rightMapValue: FMR
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'hash'
+leftMapValue: 7059c1177c0fd428b03f748dfcd3ef1e
+rightMapValue: 7059c1177c0fd428b03f748dfcd3ef1e
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'label'
+leftMapValue: Full Mix Stereo Right
+rightMapValue: Full Mix Stereo Right
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'language'
+leftMapValue: English
+rightMapValue: English
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'name'
+leftMapValue: Audio Track 2
+rightMapValue: Audio Track 2
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'originalAudio'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'trackNum'
+leftMapValue: 2
+rightMapValue: 2
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'typeNum'
+leftMapValue: 1
+rightMapValue: 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'audioLoudnessValue'
+leftMapValue: -24.57 LKFS
+rightMapValue: -24.57 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'code'
+leftMapValue: MML
+rightMapValue: MML
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'hash'
+leftMapValue: cf6435f9b62277649f7479c4e03c8938
+rightMapValue: cf6435f9b62277649f7479c4e03c8938
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'label'
+leftMapValue: Mix Minus Narration Stereo Left
+rightMapValue: Mix Minus Narration Stereo Left
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'language'
+leftMapValue: English
+rightMapValue: English
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'name'
+leftMapValue: Audio Track 3
+rightMapValue: Audio Track 3
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'trackNum'
+leftMapValue: 3
+rightMapValue: 3
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'typeNum'
+leftMapValue: 2
+rightMapValue: 2
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'audioLoudnessValue'
+leftMapValue: -24.57 LKFS
+rightMapValue: -24.57 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'code'
+leftMapValue: MMR
+rightMapValue: MMR
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'hash'
+leftMapValue: ea712c4acd684df618d9e372738ae62f
+rightMapValue: ea712c4acd684df618d9e372738ae62f
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'label'
+leftMapValue: Mix Minus Narration Stereo Right
+rightMapValue: Mix Minus Narration Stereo Right
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'language'
+leftMapValue: English
+rightMapValue: English
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'name'
+leftMapValue: Audio Track 4
+rightMapValue: Audio Track 4
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'trackNum'
+leftMapValue: 4
+rightMapValue: 4
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'typeNum'
+leftMapValue: 3
+rightMapValue: 3
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'audioLoudnessValue'
+leftMapValue: -28.73 LKFS
+rightMapValue: -28.73 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'code'
+leftMapValue: ML
+rightMapValue: ML
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'hash'
+leftMapValue: e133b5399d0e689bf1c936b8b13f6dac
+rightMapValue: e133b5399d0e689bf1c936b8b13f6dac
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'label'
+leftMapValue: Music Stereo Left
+rightMapValue: Music Stereo Left
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'language'
+leftMapValue: No Language
+rightMapValue: No Language
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'loudnessRange'
+leftMapValue: 11.7 LU
+rightMapValue: 11.7 LU
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'name'
+leftMapValue: Audio Track 5
+rightMapValue: Audio Track 5
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'peakValue'
+leftMapValue: -10.38 dB
+rightMapValue: -10.38 dB
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'trackNum'
+leftMapValue: 5
+rightMapValue: 5
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[4]'.'typeNum'
+leftMapValue: 4
+rightMapValue: 4
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'audioLoudnessValue'
+leftMapValue: -28.73 LKFS
+rightMapValue: -28.73 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'code'
+leftMapValue: MR
+rightMapValue: MR
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'hash'
+leftMapValue: a98a4090bf1355f6b65ec33acdd8fa69
+rightMapValue: a98a4090bf1355f6b65ec33acdd8fa69
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'label'
+leftMapValue: Music Stereo Right
+rightMapValue: Music Stereo Right
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'language'
+leftMapValue: No Language
+rightMapValue: No Language
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'loudnessRange'
+leftMapValue: 11.7 LU
+rightMapValue: 11.7 LU
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'name'
+leftMapValue: Audio Track 6
+rightMapValue: Audio Track 6
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'peakValue'
+leftMapValue: -10.38 dB
+rightMapValue: -10.38 dB
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'trackNum'
+leftMapValue: 6
+rightMapValue: 6
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[5]'.'typeNum'
+leftMapValue: 5
+rightMapValue: 5
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'audioLoudnessValue'
+leftMapValue: -30.10 LKFS
+rightMapValue: -30.10 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'code'
+leftMapValue: EL
+rightMapValue: EL
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'hash'
+leftMapValue: 6800f67cdfc19194990c2e4f7d0db766
+rightMapValue: 6800f67cdfc19194990c2e4f7d0db766
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'label'
+leftMapValue: Sound Effects/SOT/BG dialog Stereo Left
+rightMapValue: Sound Effects/SOT/BG dialog Stereo Left
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'language'
+leftMapValue: No Language
+rightMapValue: No Language
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'loudnessRange'
+leftMapValue: 26.8 LU
+rightMapValue: 26.8 LU
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'name'
+leftMapValue: Audio Track 7
+rightMapValue: Audio Track 7
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'trackNum'
+leftMapValue: 7
+rightMapValue: 7
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'typeNum'
+leftMapValue: 6
+rightMapValue: 6
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'audioLoudnessValue'
+leftMapValue: -30.10 LKFS
+rightMapValue: -30.10 LKFS
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'code'
+leftMapValue: ER
+rightMapValue: ER
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'hash'
+leftMapValue: ce4dc97ab61b07d99b1e616c9151dad3
+rightMapValue: ce4dc97ab61b07d99b1e616c9151dad3
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'internationalAudio'
+leftMapValue: false
+rightMapValue: false
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'isEditable'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'label'
+leftMapValue: Sound Effects/SOT/BG dialog Stereo Right
+rightMapValue: Sound Effects/SOT/BG dialog Stereo Right
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'language'
+leftMapValue: No Language
+rightMapValue: No Language
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'loudnessRange'
+leftMapValue: 26.8 LU
+rightMapValue: 26.8 LU
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'name'
+leftMapValue: Audio Track 8
+rightMapValue: Audio Track 8
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'reportKey'
+leftMapValue: audioTracks
+rightMapValue: audioTracks
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'trackNum'
+leftMapValue: 8
+rightMapValue: 8
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'typeNum'
+leftMapValue: 7
+rightMapValue: 7
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'creditStatus'
+leftMapValue: Embedded
+rightMapValue: Embedded
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'cutType'
+leftMapValue: Cut To Clock
+rightMapValue: Cut To Clock
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'deliverableNotes'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'fileClass'
+leftMapValue: DNX HD MXF
+rightMapValue: DNX HD MXF
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'language'
+leftMapValue: English
+rightMapValue: English
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'orgVideoFormat'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'credit'.'inPad'
+leftMapValue: 0
+rightMapValue: 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'credit'.'inPoint'
+leftMapValue: 01:40:47;26
+rightMapValue: 01:40:47;26
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'credit'.'outPad'
+leftMapValue: 0
+rightMapValue: 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'credit'.'outPoint'
+leftMapValue: 01:41:09;01
+rightMapValue: 01:41:09;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'credit'.'segmentType'
+leftMapValue: Embedded Credits
+rightMapValue: Embedded Credits
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'slate'.'inPoint'
+leftMapValue: 00:59:35;00
+rightMapValue: 00:59:35;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'slate'.'outPoint'
+leftMapValue: 00:59:50;00
+rightMapValue: 00:59:50;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'paddedSegments'.'slate'.'segmentType'
+leftMapValue: Slate
+rightMapValue: Slate
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'segments'.'credit'.'inPoint'
+leftMapValue: 01:40:47;26
+rightMapValue: 01:40:47;26
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'segments'.'credit'.'outPoint'
+leftMapValue: 01:41:09;01
+rightMapValue: 01:41:09;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'segments'.'credit'.'segmentType'
+leftMapValue: Embedded Credits
+rightMapValue: Embedded Credits
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'segments'.'slate'.'inPoint'
+leftMapValue: 00:59:35;00
+rightMapValue: 00:59:35;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'segments'.'slate'.'outPoint'
+leftMapValue: 00:59:50;00
+rightMapValue: 00:59:50;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'segments'.'slate'.'segmentType'
+leftMapValue: Slate
+rightMapValue: Slate
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'sniVersion'.'abstractScrid'
+leftMapValue: 5631528
+rightMapValue: 5631528
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'submitted_by'
+leftMapValue: sunflowerpost22@gmail.com
+rightMapValue: sunflowerpost22@gmail.com
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'tCType'
+leftMapValue: DF
+rightMapValue: DF
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'tRT'
+leftMapValue: 00:42:50;02
+rightMapValue: 00:42:50;02
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'videoFormat'
+leftMapValue: 1080p 29.97
+rightMapValue: 1080p 29.97
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'location'.'durationSeconds'
+leftMapValue: 30
+rightMapValue: 30
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'location'.'end'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'location'.'start'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'name'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'providerName'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'severity'
+leftMapValue: warning
+rightMapValue: warning
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'source'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'source'.'type'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'startTime'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'stopTime'
+leftMapValue: 01:41:20;02
+rightMapValue: 01:41:20;02
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'tags[0]'
+leftMapValue: audio
+rightMapValue: audio
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[0]'.'trackIndex'
+leftMapValue: 4
+rightMapValue: 4
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'location'.'durationSeconds'
+leftMapValue: 30
+rightMapValue: 30
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'location'.'end'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'location'.'start'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'name'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'providerName'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'severity'
+leftMapValue: warning
+rightMapValue: warning
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'source'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'source'.'type'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'startTime'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'stopTime'
+leftMapValue: 01:41:20;02
+rightMapValue: 01:41:20;02
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'tags[0]'
+leftMapValue: audio
+rightMapValue: audio
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[1]'.'trackIndex'
+leftMapValue: 5
+rightMapValue: 5
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'location'.'durationSeconds'
+leftMapValue: 30
+rightMapValue: 30
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'location'.'end'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'location'.'start'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'name'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'providerName'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'severity'
+leftMapValue: warning
+rightMapValue: warning
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'source'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'source'.'type'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'startTime'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'stopTime'
+leftMapValue: 01:41:20;02
+rightMapValue: 01:41:20;02
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'tags[0]'
+leftMapValue: audio
+rightMapValue: audio
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[2]'.'trackIndex'
+leftMapValue: 6
+rightMapValue: 6
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'location'.'durationSeconds'
+leftMapValue: 30
+rightMapValue: 30
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'location'.'end'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'location'.'start'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'name'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'providerName'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'severity'
+leftMapValue: warning
+rightMapValue: warning
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'source'.'message'
+leftMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.
+rightMapValue: LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'source'.'type'
+leftMapValue: Audio Dynamic Range Violation
+rightMapValue: Audio Dynamic Range Violation
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'startTime'
+leftMapValue: 01:40:50;01
+rightMapValue: 01:40:50;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'stopTime'
+leftMapValue: 01:41:20;02
+rightMapValue: 01:41:20;02
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'tags[0]'
+leftMapValue: audio
+rightMapValue: audio
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Audio Dynamic Range Violation'.'occurrences[3]'.'trackIndex'
+leftMapValue: 7
+rightMapValue: 7
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'category'
+leftMapValue: Segment
+rightMapValue: Segment
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'location'.'durationSeconds'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'location'.'end'
+leftMapValue: 01:41:20;01
+rightMapValue: 01:41:20;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'location'.'start'
+leftMapValue: 00:58:30;00
+rightMapValue: 00:58:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'name'
+leftMapValue: Segment 0
+rightMapValue: Segment 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'providerName'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'segmentIndex'
+leftMapValue: 0
+rightMapValue: 0
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'severity'
+leftMapValue: 
+rightMapValue: 
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'startTime'
+leftMapValue: 00:58:30;00
+rightMapValue: 00:58:30;00
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'workflowFaults'.'Segment Detection Mismatch'.'occurrences[0]'.'stopTime'
+leftMapValue: 01:41:20;01
+rightMapValue: 01:41:20;01
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'wormholeCompressed'
+leftMapValue: true
+rightMapValue: true
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'relationships'.'organization'.'data'.'id'
+leftMapValue: 1
+rightMapValue: 1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'relationships'.'organization'.'data'.'type'
+leftMapValue: organizations
+rightMapValue: organizations
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'relationships'.'organization'.'links'.'self'
+leftMapValue: https://discovery-uat.sdvi.com/api/v2/organizations/1
+rightMapValue: https://discovery-uat.sdvi.com/api/v2/organizations/1
+whichValue: entiresMatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'MIIDs'.'miId1'
+leftMapValue: 187943.007.43.001
+rightMapValue: 187943.007.18.001
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'MIIDs'.'miId2'
+leftMapValue: 187943.007.43.001
+rightMapValue: 187943.007.18.001
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'MIIDs'.'miId3'
+leftMapValue: 187943_007_43_001
+rightMapValue: 187943_007_18_001
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94'.'s3url'
+leftMapValue: s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_43_001.mxf
+rightMapValue: s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_18_001.mxf
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'airmasterMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'s3url'
+leftMapValue: s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_43_001_ENGS.wav
+rightMapValue: s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_18_001_ENGS.wav
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'AirMaster1080i59.94'.'gcrCutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'AirMaster1080i59.94'.'gcrObjectId'
+leftMapValue: 4426873
+rightMapValue: 4247944
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'AirMaster1080i59.94'.'mfxMediaId'
+leftMapValue: 120242041
+rightMapValue: 116677115
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'AirMaster1080i59.94'.'mfxVersionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'CaptionEnglish1080i59.94'.'gcrCutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'CaptionEnglish1080i59.94'.'mfxMediaId'
+leftMapValue: 120242043
+rightMapValue: 116677114
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'CaptionEnglish1080i59.94'.'mfxVersionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'QCProxy'.'gcrCutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'QCProxy'.'mfxMediaId'
+leftMapValue: 120242040
+rightMapValue: 116677118
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'QCProxy'.'mfxVersionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviMovieFile'.'gcrCutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviMovieFile'.'gcrObjectId'
+leftMapValue: 4427268
+rightMapValue: 4253685
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviMovieFile'.'mfxMediaId'
+leftMapValue: 120242044
+rightMapValue: 116677112
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviMovieFile'.'mfxVersionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviProxy'.'gcrCutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviProxy'.'mfxMediaId'
+leftMapValue: 120242045
+rightMapValue: 116677113
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'associations'.'SdviProxy'.'mfxVersionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'autoAQCTimestamp'
+leftMapValue: 1675326282714
+rightMapValue: 1663833165542
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'caseMetaData'.'caseUuid'
+leftMapValue: e1875acd-1b07-43a6-adcd-37b4eaf83feb
+rightMapValue: 2aa66fa1-328b-4c1c-af22-fd3744e36176
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[0]'.'speed_multiplier'
+leftMapValue: 1
+rightMapValue: 1.0
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[1]'.'speed_multiplier'
+leftMapValue: 1
+rightMapValue: 1.0
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[2]'.'speed_multiplier'
+leftMapValue: 1
+rightMapValue: 1.0
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[3]'.'speed_multiplier'
+leftMapValue: 1
+rightMapValue: 1.0
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[4]'.'speed_multiplier'
+leftMapValue: 1
+rightMapValue: 1.0
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressedSegments[6]'.'speed_multiplier'
+leftMapValue: 1
+rightMapValue: 1.0
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[4]'.'label'
+leftMapValue: Snippet 15
+rightMapValue: Snippet 5
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[5]'.'label'
+leftMapValue: Snippet 16
+rightMapValue: Snippet 6
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'compressionJob[6]'.'label'
+leftMapValue: Snippet 17
+rightMapValue: Snippet 7
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'AirMaster1080i59.94'.'cutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'AirMaster1080i59.94'.'objectId'
+leftMapValue: 4426873
+rightMapValue: 4247944
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'CaptionEnglish1080i59.94'.'cutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'QCProxy'.'cutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'SdviMovieFile'.'cutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'SdviMovieFile'.'objectId'
+leftMapValue: 4427268
+rightMapValue: 4253685
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'gcrMetadata'.'SdviProxy'.'cutId'
+leftMapValue: 4916930
+rightMapValue: 4792527
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'hiveMetaData'.'paid'
+leftMapValue: 187943.007.43.001
+rightMapValue: 187943.007.18.001
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'AirMaster1080i59.94'.'mediaId'
+leftMapValue: 120242041
+rightMapValue: 116677115
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'AirMaster1080i59.94'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'mediaId'
+leftMapValue: 120242047
+rightMapValue: 116677117
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'AirMaster1080i59.94LanguageEnglishFullMixStereo'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'CaptionEnglish1080i59.94'.'mediaId'
+leftMapValue: 120242043
+rightMapValue: 116677114
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'CaptionEnglish1080i59.94'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'QCProxy'.'mediaId'
+leftMapValue: 120242040
+rightMapValue: 116677118
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'QCProxy'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviMovieFile'.'mediaId'
+leftMapValue: 120242044
+rightMapValue: 116677112
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviMovieFile'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviProxy'.'mediaId'
+leftMapValue: 120242045
+rightMapValue: 116677113
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviProxy'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviQCReport'.'mediaId'
+leftMapValue: 120242046
+rightMapValue: 116677116
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'SdviQCReport'.'versionId'
+leftMapValue: 120241158
+rightMapValue: 116670605
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'mediaflexMetaData'.'teReport'
+leftMapValue: s3://discovery.com.uat.onramp.tereports.us-east-1.s3.amazonaws.com/CCOMP_187943_007_PMF_DC_20230202031434_RoboQC.pdf
+rightMapValue: s3://discovery.com.uat.onramp.tereports.us-east-1.s3.amazonaws.com/CCOMP_187943_007_PMF_DC_20220922034338_RoboQC.pdf
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'proxy'.'sdviProxy'
+leftMapValue: s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20230202031434_sdvi_proxy.mp4
+rightMapValue: s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20220922034338_sdvi_proxy.mp4
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'qcReportVidchecker'.'pdfReport'
+leftMapValue: s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.pdf
+rightMapValue: s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20220922034338.Vidchecker.pdf
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'qcReportVidchecker'.'xmlReport'
+leftMapValue: s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.xml
+rightMapValue: s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20220922034338.Vidchecker.xml
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'rallyQCReports'.'QC'.'sourceVidcheckerPDF'
+leftMapValue: s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.pdf
+rightMapValue: s3://sdvi-adccbf-platform/DiscoveryUat/job_artifacts/2a46c6a9-573c-4c64-9234-757d875c47df/SdviQCReportPdfVidchecker.pdf
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'rallyQCReports'.'QC'.'sourceVidcheckerXML'
+leftMapValue: s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.xml
+rightMapValue: s3://sdvi-adccbf-platform/DiscoveryUat/job_artifacts/2a46c6a9-573c-4c64-9234-757d875c47df/SdviQCReportXmlVidchecker.xml
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'s3Key'
+leftMapValue: s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20230202031434.mxf
+rightMapValue: s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20220922034338.mxf
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sdviMovieDeadline'
+leftMapValue: 2023-02-02T09:20:46Z
+rightMapValue: 2022-09-22T08:56:48Z
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sdviQcReport'.'location'
+leftMapValue: job_artifacts/0e5cb891-ff9d-4571-a9c8-c594dc30f178/SdviQCReportPdfVidchecker.pdf
+rightMapValue: job_artifacts/2a46c6a9-573c-4c64-9234-757d875c47df/SdviQCReportPdfVidchecker.pdf
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'CaptionEnglish1080p29.97'.'gcrCutId'
+leftMapValue: 2641852
+rightMapValue: 4656511
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'CaptionEnglish1080p29.97'.'mfxMediaId'
+leftMapValue: 83017158
+rightMapValue: 116437224
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'CaptionEnglish1080p29.97'.'mfxVersionId'
+leftMapValue: 64412506
+rightMapValue: 71181604
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'Conversion1080i59.94Xdcam'.'gcrCutId'
+leftMapValue: 2641852
+rightMapValue: 4656511
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'Conversion1080i59.94Xdcam'.'mfxMediaId'
+leftMapValue: 71242861
+rightMapValue: 116437225
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'QCProxy'.'gcrCutId'
+leftMapValue: 2641852
+rightMapValue: 4656510
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'QCProxy'.'mfxMediaId'
+leftMapValue: 71192223
+rightMapValue: 116437226
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviMovieFile'.'gcrCutId'
+leftMapValue: 2641852
+rightMapValue: 4656510
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviMovieFile'.'mfxMediaId'
+leftMapValue: 71192231
+rightMapValue: 116437227
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviProxy'.'gcrCutId'
+leftMapValue: 2641852
+rightMapValue: 4656510
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'sourceAssociations'.'SdviProxy'.'mfxMediaId'
+leftMapValue: 71192240
+rightMapValue: 116437228
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'loudnessRange'
+leftMapValue: 4.5 LU
+rightMapValue: 4.4 LU
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[0]'.'peakValue'
+leftMapValue: -2.79 dB
+rightMapValue: -2.49 dB
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'loudnessRange'
+leftMapValue: 4.5 LU
+rightMapValue: 4.4 LU
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[1]'.'peakValue'
+leftMapValue: -2.79 dB
+rightMapValue: -2.49 dB
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'loudnessRange'
+leftMapValue: 7.7 LU
+rightMapValue: 7.6 LU
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[2]'.'peakValue'
+leftMapValue: -2.83 dB
+rightMapValue: -1.94 dB
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'loudnessRange'
+leftMapValue: 7.7 LU
+rightMapValue: 7.6 LU
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[3]'.'peakValue'
+leftMapValue: -2.83 dB
+rightMapValue: -1.94 dB
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[6]'.'peakValue'
+leftMapValue: -9.65 dB
+rightMapValue: -9.66 dB
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'audioTracks[7]'.'peakValue'
+leftMapValue: -9.65 dB
+rightMapValue: -9.66 dB
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'sniVersion'.'scrid'
+leftMapValue: 13771871
+rightMapValue: 13272432
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'attributes'.'metadata'.'userMetaData'.'sniVersion'.'showCode'
+leftMapValue: TEUX107T50H
+rightMapValue: TEUX107T14H
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'id'
+leftMapValue: 957787
+rightMapValue: Metadata
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'links'.'self'
+leftMapValue: https://discovery-uat.sdvi.com/api/v2/userMetadata/957787
+rightMapValue: https://discovery-uat.sdvi.com/api/v2/movies/837654/metadata/Metadata
+whichValue: entriesMismatching
+*************************************************
+Property: 'data'.'type'
+leftMapValue: userMetadata
+rightMapValue: metadata
+whichValue: entriesMismatching

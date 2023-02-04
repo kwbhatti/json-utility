@@ -1,0 +1,1301 @@
+{
+    "data": {
+        "attributes": {
+            "metadata": {
+                "MIIDs": {
+                    "miId1": "187943.007.43.001",
+                    "miId2": "187943.007.43.001",
+                    "miId3": "187943_007_43_001"
+                },
+                "airmasterMetaData": {
+                    "AirMaster1080i59.94": {
+                        "s3url": "s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_43_001.mxf",
+                        "sourceLabel": "SdviMovieFile",
+                        "type": "video"
+                    },
+                    "AirMaster1080i59.94LanguageEnglishFullMixStereo": {
+                        "s3url": "s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_43_001_ENGS.wav",
+                        "sourceLabel": "SdviMovieFile",
+                        "sourceTracks": [
+                            0,
+                            1
+                        ],
+                        "type": "audio"
+                    }
+                },
+                "associations": {
+                    "AirMaster1080i59.94": {
+                        "gcrCutId": 4916930,
+                        "gcrObjectId": 4426873,
+                        "mfxMediaId": 120242041,
+                        "mfxVersionId": 120241158,
+                        "servantObject": false
+                    },
+                    "CaptionEnglish1080i59.94": {
+                        "gcrCutId": 4916930,
+                        "mfxMediaId": 120242043,
+                        "mfxVersionId": 120241158,
+                        "servantObject": true
+                    },
+                    "QCProxy": {
+                        "gcrCutId": 4916930,
+                        "mfxMediaId": 120242040,
+                        "mfxVersionId": 120241158,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "gcrCutId": 4916930,
+                        "gcrObjectId": 4427268,
+                        "mfxMediaId": 120242044,
+                        "mfxVersionId": 120241158,
+                        "servantObject": false
+                    },
+                    "SdviProxy": {
+                        "gcrCutId": 4916930,
+                        "mfxMediaId": 120242045,
+                        "mfxVersionId": 120241158,
+                        "servantObject": true
+                    }
+                },
+                "autoAQCComplete": true,
+                "autoAQCDesired": true,
+                "autoAQCFinished": true,
+                "autoAQCPass": true,
+                "autoAQCTimestamp": 1675326282714,
+                "caseMetaData": {
+                    "caseAttributes": {
+                        "caseParameters": {
+                            "aspectRatio": "16:9",
+                            "clockType": "Cut To Clock",
+                            "format": "HD"
+                        },
+                        "caseSummary": "DC, 16:9, HD, CTC",
+                        "caseTypes": {
+                            "durationChangeInd": true
+                        },
+                        "primaryCaseType": "durationChange"
+                    },
+                    "caseUuid": "e1875acd-1b07-43a6-adcd-37b4eaf83feb",
+                    "caseVersionName": "DC_Wormhole Compression"
+                },
+                "compressedSegments": [
+                    {
+                        "dst_duration_nominal": "00:01:05;00",
+                        "dst_end_frame_idx": 107141,
+                        "dst_end_timecode": "00:59:34;29",
+                        "dst_frame_count": 1948,
+                        "dst_start_frame_idx": 105194,
+                        "dst_start_timecode": "00:58:30;00",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:01:05;00",
+                        "src_end_frame_idx": 1947,
+                        "src_end_timecode": "00:59:34;29",
+                        "src_frame_count": 1948,
+                        "src_start_frame_idx": 0,
+                        "src_start_timecode": "00:58:30;00",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:15;01",
+                        "dst_end_frame_idx": 107592,
+                        "dst_end_timecode": "00:59:50;00",
+                        "dst_frame_count": 451,
+                        "dst_start_frame_idx": 107142,
+                        "dst_start_timecode": "00:59:35;00",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:15;01",
+                        "src_end_frame_idx": 2398,
+                        "src_end_timecode": "00:59:50;00",
+                        "src_frame_count": 451,
+                        "src_start_frame_idx": 1948,
+                        "src_start_timecode": "00:59:35;00",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:09;29",
+                        "dst_end_frame_idx": 107891,
+                        "dst_end_timecode": "00:59:59;29",
+                        "dst_frame_count": 299,
+                        "dst_start_frame_idx": 107593,
+                        "dst_start_timecode": "00:59:50;01",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:09;29",
+                        "src_end_frame_idx": 2697,
+                        "src_end_timecode": "00:59:59;29",
+                        "src_frame_count": 299,
+                        "src_start_frame_idx": 2399,
+                        "src_start_timecode": "00:59:50;01",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:01:30;00",
+                        "dst_end_frame_idx": 110589,
+                        "dst_end_timecode": "01:01:29;29",
+                        "dst_frame_count": 2698,
+                        "dst_start_frame_idx": 107892,
+                        "dst_start_timecode": "01:00:00;00",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:01:30;00",
+                        "src_end_frame_idx": 5395,
+                        "src_end_timecode": "01:01:29;29",
+                        "src_frame_count": 2698,
+                        "src_start_frame_idx": 2698,
+                        "src_start_timecode": "01:00:00;00",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:11:09;14",
+                        "dst_end_frame_idx": 130653,
+                        "dst_end_timecode": "01:12:39;13",
+                        "dst_frame_count": 20064,
+                        "dst_start_frame_idx": 110590,
+                        "dst_start_timecode": "01:01:30;00",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9811,
+                        "src_duration_nominal": "00:11:22;11",
+                        "src_end_frame_idx": 25846,
+                        "src_end_timecode": "01:12:52;10",
+                        "src_frame_count": 20451,
+                        "src_start_frame_idx": 5396,
+                        "src_start_timecode": "01:01:30;00",
+                        "time_delta": "00:00:12;27"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:05;00",
+                        "dst_end_frame_idx": 130803,
+                        "dst_end_timecode": "01:12:44;13",
+                        "dst_frame_count": 150,
+                        "dst_start_frame_idx": 130654,
+                        "dst_start_timecode": "01:12:39;14",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:05;00",
+                        "src_end_frame_idx": 25996,
+                        "src_end_timecode": "01:12:57;10",
+                        "src_frame_count": 150,
+                        "src_start_frame_idx": 25847,
+                        "src_start_timecode": "01:12:52;11",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:07:06;05",
+                        "dst_end_frame_idx": 143574,
+                        "dst_end_timecode": "01:19:50;18",
+                        "dst_frame_count": 12771,
+                        "dst_start_frame_idx": 130804,
+                        "dst_start_timecode": "01:12:44;14",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9811,
+                        "src_duration_nominal": "00:07:14;11",
+                        "src_end_frame_idx": 39013,
+                        "src_end_timecode": "01:20:11;21",
+                        "src_frame_count": 13017,
+                        "src_start_frame_idx": 25997,
+                        "src_start_timecode": "01:12:57;11",
+                        "time_delta": "00:00:08;06"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:05;00",
+                        "dst_end_frame_idx": 143724,
+                        "dst_end_timecode": "01:19:55;18",
+                        "dst_frame_count": 150,
+                        "dst_start_frame_idx": 143575,
+                        "dst_start_timecode": "01:19:50;19",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:05;00",
+                        "src_end_frame_idx": 39163,
+                        "src_end_timecode": "01:20:16;21",
+                        "src_frame_count": 150,
+                        "src_start_frame_idx": 39014,
+                        "src_start_timecode": "01:20:11;22",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:07:30;00",
+                        "dst_end_frame_idx": 157210,
+                        "dst_end_timecode": "01:27:25;18",
+                        "dst_frame_count": 13486,
+                        "dst_start_frame_idx": 143725,
+                        "dst_start_timecode": "01:19:55;19",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9811,
+                        "src_duration_nominal": "00:07:38;20",
+                        "src_end_frame_idx": 52909,
+                        "src_end_timecode": "01:27:55;11",
+                        "src_frame_count": 13746,
+                        "src_start_frame_idx": 39164,
+                        "src_start_timecode": "01:20:16;22",
+                        "time_delta": "00:00:08;20"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:05;00",
+                        "dst_end_frame_idx": 157360,
+                        "dst_end_timecode": "01:27:30;18",
+                        "dst_frame_count": 150,
+                        "dst_start_frame_idx": 157211,
+                        "dst_start_timecode": "01:27:25;19",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:05;00",
+                        "src_end_frame_idx": 53059,
+                        "src_end_timecode": "01:28:00;13",
+                        "src_frame_count": 150,
+                        "src_start_frame_idx": 52910,
+                        "src_start_timecode": "01:27:55;12",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:05:55;18",
+                        "dst_end_frame_idx": 168018,
+                        "dst_end_timecode": "01:33:26;06",
+                        "dst_frame_count": 10658,
+                        "dst_start_frame_idx": 157361,
+                        "dst_start_timecode": "01:27:30;19",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.981,
+                        "src_duration_nominal": "00:06:02;16",
+                        "src_end_frame_idx": 63923,
+                        "src_end_timecode": "01:34:02;27",
+                        "src_frame_count": 10864,
+                        "src_start_frame_idx": 53060,
+                        "src_start_timecode": "01:28:00;14",
+                        "time_delta": "00:00:06;26"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:05;00",
+                        "dst_end_frame_idx": 168168,
+                        "dst_end_timecode": "01:33:31;06",
+                        "dst_frame_count": 150,
+                        "dst_start_frame_idx": 168019,
+                        "dst_start_timecode": "01:33:26;07",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:05;00",
+                        "src_end_frame_idx": 64073,
+                        "src_end_timecode": "01:34:07;27",
+                        "src_frame_count": 150,
+                        "src_start_frame_idx": 63924,
+                        "src_start_timecode": "01:34:02;28",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:01:04;07",
+                        "dst_end_frame_idx": 170093,
+                        "dst_end_timecode": "01:34:35;13",
+                        "dst_frame_count": 1925,
+                        "dst_start_frame_idx": 168169,
+                        "dst_start_timecode": "01:33:31;07",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9811,
+                        "src_duration_nominal": "00:01:05;14",
+                        "src_end_frame_idx": 66035,
+                        "src_end_timecode": "01:35:13;11",
+                        "src_frame_count": 1962,
+                        "src_start_frame_idx": 64074,
+                        "src_start_timecode": "01:34:07;28",
+                        "time_delta": "00:00:01;07"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:05;00",
+                        "dst_end_frame_idx": 170243,
+                        "dst_end_timecode": "01:34:40;13",
+                        "dst_frame_count": 150,
+                        "dst_start_frame_idx": 170094,
+                        "dst_start_timecode": "01:34:35;14",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:05;00",
+                        "src_end_frame_idx": 66185,
+                        "src_end_timecode": "01:35:18;11",
+                        "src_frame_count": 150,
+                        "src_start_frame_idx": 66036,
+                        "src_start_timecode": "01:35:13;12",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:06:07;14",
+                        "dst_end_frame_idx": 181255,
+                        "dst_end_timecode": "01:40:47;25",
+                        "dst_frame_count": 11012,
+                        "dst_start_frame_idx": 170244,
+                        "dst_start_timecode": "01:34:40;14",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.981,
+                        "src_duration_nominal": "00:06:14;17",
+                        "src_end_frame_idx": 77410,
+                        "src_end_timecode": "01:41:32;26",
+                        "src_frame_count": 11225,
+                        "src_start_frame_idx": 66186,
+                        "src_start_timecode": "01:35:18;12",
+                        "time_delta": "00:00:07;03"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:21;04",
+                        "dst_end_frame_idx": 181889,
+                        "dst_end_timecode": "01:41:09;01",
+                        "dst_frame_count": 634,
+                        "dst_start_frame_idx": 181256,
+                        "dst_start_timecode": "01:40:47;26",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:21;04",
+                        "src_end_frame_idx": 78044,
+                        "src_end_timecode": "01:41:54;00",
+                        "src_frame_count": 634,
+                        "src_start_frame_idx": 77411,
+                        "src_start_timecode": "01:41:32;27",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:00;29",
+                        "dst_end_frame_idx": 181918,
+                        "dst_end_timecode": "01:41:10;00",
+                        "dst_frame_count": 29,
+                        "dst_start_frame_idx": 181890,
+                        "dst_start_timecode": "01:41:09;02",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9667,
+                        "src_duration_nominal": "00:00:01;00",
+                        "src_end_frame_idx": 78074,
+                        "src_end_timecode": "01:41:55;00",
+                        "src_frame_count": 30,
+                        "src_start_frame_idx": 78045,
+                        "src_start_timecode": "01:41:54;01",
+                        "time_delta": "00:00:00;01"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:10;01",
+                        "dst_end_frame_idx": 182219,
+                        "dst_end_timecode": "01:41:20;01",
+                        "dst_frame_count": 301,
+                        "dst_start_frame_idx": 181919,
+                        "dst_start_timecode": "01:41:10;01",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1,
+                        "src_duration_nominal": "00:00:10;01",
+                        "src_end_frame_idx": 78375,
+                        "src_end_timecode": "01:42:05;03",
+                        "src_frame_count": 301,
+                        "src_start_frame_idx": 78075,
+                        "src_start_timecode": "01:41:55;01",
+                        "time_delta": "00:00:00;00"
+                    }
+                ],
+                "compressionJob": [
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 0",
+                        "src_end_timecode": "00:59:34;29",
+                        "src_start_timecode": "00:58:30;00"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 1",
+                        "src_end_timecode": "00:59:50;00",
+                        "src_start_timecode": "00:59:35;00"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 2",
+                        "src_end_timecode": "00:59:59;29",
+                        "src_start_timecode": "00:59:50;01"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 3",
+                        "src_end_timecode": "01:01:29;29",
+                        "src_start_timecode": "01:00:00;00"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:12;28",
+                        "is_break": false,
+                        "label": "Snippet 4",
+                        "src_end_timecode": "01:12:52;10",
+                        "src_start_timecode": "01:01:30;00"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 5",
+                        "src_end_timecode": "01:12:57;10",
+                        "src_start_timecode": "01:12:52;11"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:08;07",
+                        "is_break": false,
+                        "label": "Snippet 6",
+                        "src_end_timecode": "01:20:11;21",
+                        "src_start_timecode": "01:12:57;11"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 7",
+                        "src_end_timecode": "01:20:16;21",
+                        "src_start_timecode": "01:20:11;22"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:08;21",
+                        "is_break": false,
+                        "label": "Snippet 8",
+                        "src_end_timecode": "01:27:55;11",
+                        "src_start_timecode": "01:20:16;22"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 9",
+                        "src_end_timecode": "01:28:00;13",
+                        "src_start_timecode": "01:27:55;12"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:06;26",
+                        "is_break": false,
+                        "label": "Snippet 10",
+                        "src_end_timecode": "01:34:02;27",
+                        "src_start_timecode": "01:28:00;14"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 11",
+                        "src_end_timecode": "01:34:07;27",
+                        "src_start_timecode": "01:34:02;28"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:01;07",
+                        "is_break": false,
+                        "label": "Snippet 12",
+                        "src_end_timecode": "01:35:13;11",
+                        "src_start_timecode": "01:34:07;28"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 13",
+                        "src_end_timecode": "01:35:18;11",
+                        "src_start_timecode": "01:35:13;12"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:07;03",
+                        "is_break": false,
+                        "label": "Snippet 14",
+                        "src_end_timecode": "01:41:32;26",
+                        "src_start_timecode": "01:35:18;12"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 15",
+                        "src_end_timecode": "01:41:54;00",
+                        "src_start_timecode": "01:41:32;27"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:00;01",
+                        "is_break": false,
+                        "label": "Snippet 16",
+                        "src_end_timecode": "01:41:55;00",
+                        "src_start_timecode": "01:41:54;01"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 17",
+                        "src_end_timecode": "01:42:05;03",
+                        "src_start_timecode": "01:41:55;01"
+                    }
+                ],
+                "compressionMetaData": {
+                    "compressionVersionName": "Wormhole Compression_TimeCompression_45_Seconds"
+                },
+                "creditType": "Embedded Credits",
+                "gcrMetadata": {
+                    "AirMaster1080i59.94": {
+                        "cutId": 4916930,
+                        "objectId": 4426873
+                    },
+                    "CaptionEnglish1080i59.94": {
+                        "cutId": 4916930,
+                        "servantObject": true
+                    },
+                    "QCProxy": {
+                        "cutId": 4916930,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "cutId": 4916930,
+                        "objectId": 4427268
+                    },
+                    "SdviProxy": {
+                        "cutId": 4916930,
+                        "servantObject": true
+                    }
+                },
+                "hiveMetaData": {
+                    "abstractScrid": 5631528,
+                    "dealType": "CO",
+                    "dealTypeWorkflow": "CO",
+                    "deliverableReceivedStatus": "Tech Pass",
+                    "deliverableType": "Wormhole Compression",
+                    "episodeId": 904229,
+                    "episodeName": "The Amazon's Cursed Ruins",
+                    "episodeNumber": 7,
+                    "episodeTitle": "The Amazon's Cursed Ruins",
+                    "network": "Travel Channel - US",
+                    "originationNetwork": "Discovery Channel - US",
+                    "originationNetworkPdsId": 1,
+                    "paid": "187943.007.43.001",
+                    "premiereDate": "2020-03-18",
+                    "programName": "Expedition X",
+                    "propertyId": 187943,
+                    "scrid": 5631528,
+                    "seasonId": 192238,
+                    "seasonNumber": 1,
+                    "seasonTitle": "Expedition X",
+                    "showId": 159859,
+                    "showTitle": "Expedition X",
+                    "slotLength": 3600
+                },
+                "mediaflexMetaData": {
+                    "AirMaster1080i59.94": {
+                        "mediaId": 120242041,
+                        "versionId": 120241158
+                    },
+                    "AirMaster1080i59.94LanguageEnglishFullMixStereo": {
+                        "mediaId": 120242047,
+                        "versionId": 120241158
+                    },
+                    "CaptionEnglish1080i59.94": {
+                        "mediaId": 120242043,
+                        "versionId": 120241158
+                    },
+                    "QCProxy": {
+                        "mediaId": 120242040,
+                        "versionId": 120241158
+                    },
+                    "SdviMovieFile": {
+                        "autoDownloaded": true,
+                        "mediaId": 120242044,
+                        "versionId": 120241158
+                    },
+                    "SdviProxy": {
+                        "mediaId": 120242045,
+                        "versionId": 120241158
+                    },
+                    "SdviQCReport": {
+                        "autoDownloaded": true,
+                        "mediaId": 120242046,
+                        "versionId": 120241158
+                    },
+                    "deliverableReceivedStatus": "Tech Pass",
+                    "teReport": "s3://discovery.com.uat.onramp.tereports.us-east-1.s3.amazonaws.com/CCOMP_187943_007_PMF_DC_20230202031434_RoboQC.pdf"
+                },
+                "mediaflexTVStandard": "1920x1080_P_29.97_DF",
+                "onpremLocation": "DCTC",
+                "proxy": {
+                    "sdviProxy": "s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20230202031434_sdvi_proxy.mp4"
+                },
+                "qcReportVidchecker": {
+                    "pdfReport": "s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.pdf",
+                    "xmlReport": "s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.xml"
+                },
+                "rallyQCReports": {
+                    "QC": {
+                        "sourceVidcheckerPDF": "s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.pdf",
+                        "sourceVidcheckerXML": "s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20230202031434.Vidchecker.xml"
+                    }
+                },
+                "s3Key": "s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20230202031434.mxf",
+                "s3KeySource": "s3://discovery.com.uat.onramp.archive.us-east-1/187943_007_PMF_2622042_1.mxf",
+                "sdviMovieDeadline": "2023-02-02T09:20:46Z",
+                "sdviQcReport": {
+                    "location": "job_artifacts/0e5cb891-ff9d-4571-a9c8-c594dc30f178/SdviQCReportPdfVidchecker.pdf",
+                    "status": "submitting"
+                },
+                "sourceAssociations": {
+                    "AirMaster1080i59.94": {
+                        "gcrCutId": 2180932,
+                        "gcrObjectId": 1758218,
+                        "servantObject": false
+                    },
+                    "CaptionEnglish1080p29.97": {
+                        "gcrCutId": 2641852,
+                        "mfxMediaId": 83017158,
+                        "mfxVersionId": 64412506,
+                        "servantObject": true
+                    },
+                    "Conversion1080i59.94Xdcam": {
+                        "gcrCutId": 2641852,
+                        "gcrObjectId": 1910998,
+                        "mfxMediaId": 71242861,
+                        "mfxVersionId": 71181604,
+                        "servantObject": false
+                    },
+                    "QCProxy": {
+                        "gcrCutId": 2641852,
+                        "mfxMediaId": 71192223,
+                        "mfxVersionId": 71181604,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "gcrCutId": 2641852,
+                        "gcrObjectId": 1910997,
+                        "mfxMediaId": 71192231,
+                        "mfxVersionId": 71181604,
+                        "servantObject": false
+                    },
+                    "SdviProxy": {
+                        "gcrCutId": 2641852,
+                        "mfxMediaId": 71192240,
+                        "mfxVersionId": 71181604,
+                        "servantObject": true
+                    }
+                },
+                "sourceMovieName": "187943_007_PMF_2622042_1",
+                "sourceSegments": {
+                    "credit": {
+                        "inPoint": "01:41:32;27",
+                        "outPoint": "01:41:54;00",
+                        "segmentType": "Embedded Credits"
+                    },
+                    "segments": [
+                        {
+                            "duration": "00:12:52;10",
+                            "endTime": "01:12:52;10",
+                            "segmentType": "Segment",
+                            "startTime": "01:00:00;00",
+                            "woo": [
+                                {
+                                    "inPoint": "01:02:24;00",
+                                    "outPoint": "01:03:04;04"
+                                },
+                                {
+                                    "inPoint": "01:03:16;09",
+                                    "outPoint": "01:03:56;11"
+                                }
+                            ]
+                        },
+                        {
+                            "duration": "00:07:14;10",
+                            "endTime": "01:20:11;21",
+                            "segmentType": "Segment",
+                            "startTime": "01:12:57;11",
+                            "woo": [
+                                {
+                                    "inPoint": "01:13:16;09",
+                                    "outPoint": "01:14:18;08"
+                                },
+                                {
+                                    "inPoint": "01:15:52;10",
+                                    "outPoint": "01:16:32;14"
+                                }
+                            ]
+                        },
+                        {
+                            "duration": "00:07:38;19",
+                            "endTime": "01:27:55;11",
+                            "segmentType": "Segment",
+                            "startTime": "01:20:16;22",
+                            "woo": [
+                                {
+                                    "inPoint": "01:21:20;22",
+                                    "outPoint": "01:22:00;26"
+                                },
+                                {
+                                    "inPoint": "01:22:30;10",
+                                    "outPoint": "01:23:10;14"
+                                }
+                            ]
+                        },
+                        {
+                            "duration": "00:06:02;15",
+                            "endTime": "01:34:02;27",
+                            "segmentType": "Segment",
+                            "startTime": "01:28:00;14",
+                            "woo": [
+                                {
+                                    "inPoint": "01:28:20;05",
+                                    "outPoint": "01:29:00;09"
+                                },
+                                {
+                                    "inPoint": "01:29:38;04",
+                                    "outPoint": "01:30:18;06"
+                                }
+                            ]
+                        },
+                        {
+                            "duration": "00:01:05;13",
+                            "endTime": "01:35:13;11",
+                            "segmentType": "Segment",
+                            "startTime": "01:34:07;28",
+                            "woo": []
+                        },
+                        {
+                            "duration": "00:06:36;20",
+                            "endTime": "01:41:55;00",
+                            "segmentType": "Segment",
+                            "startTime": "01:35:18;12",
+                            "woo": [
+                                {
+                                    "inPoint": "01:35:26;13",
+                                    "outPoint": "01:36:06;17"
+                                },
+                                {
+                                    "inPoint": "01:38:14;13",
+                                    "outPoint": "01:38:54;15"
+                                }
+                            ]
+                        }
+                    ],
+                    "slate": {
+                        "inPoint": "00:59:35;00",
+                        "outPoint": "00:59:50;00",
+                        "segmentType": "Slate"
+                    }
+                },
+                "timeBeforeSlate": true,
+                "timeBetweenSlate": true,
+                "totalReTime": "00:00:45;00",
+                "userMetaData": {
+                    "audioTracks": [
+                        {
+                            "audioLoudnessValue": "-24.59 LKFS",
+                            "code": "FML",
+                            "hash": "b835e07b979945499020972cc2ca99c7",
+                            "isEditable": true,
+                            "label": "Full Mix Stereo Left",
+                            "language": "English",
+                            "loudnessRange": "4.5 LU",
+                            "name": "Audio Track 1",
+                            "originalAudio": true,
+                            "peakValue": "-2.79 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 1,
+                            "typeNum": 0
+                        },
+                        {
+                            "audioLoudnessValue": "-24.59 LKFS",
+                            "code": "FMR",
+                            "hash": "7059c1177c0fd428b03f748dfcd3ef1e",
+                            "isEditable": true,
+                            "label": "Full Mix Stereo Right",
+                            "language": "English",
+                            "loudnessRange": "4.5 LU",
+                            "name": "Audio Track 2",
+                            "originalAudio": true,
+                            "peakValue": "-2.79 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 2,
+                            "typeNum": 1
+                        },
+                        {
+                            "audioLoudnessValue": "-24.57 LKFS",
+                            "code": "MML",
+                            "hash": "cf6435f9b62277649f7479c4e03c8938",
+                            "isEditable": true,
+                            "label": "Mix Minus Narration Stereo Left",
+                            "language": "English",
+                            "loudnessRange": "7.7 LU",
+                            "name": "Audio Track 3",
+                            "peakValue": "-2.83 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 3,
+                            "typeNum": 2
+                        },
+                        {
+                            "audioLoudnessValue": "-24.57 LKFS",
+                            "code": "MMR",
+                            "hash": "ea712c4acd684df618d9e372738ae62f",
+                            "isEditable": true,
+                            "label": "Mix Minus Narration Stereo Right",
+                            "language": "English",
+                            "loudnessRange": "7.7 LU",
+                            "name": "Audio Track 4",
+                            "peakValue": "-2.83 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 4,
+                            "typeNum": 3
+                        },
+                        {
+                            "audioLoudnessValue": "-28.73 LKFS",
+                            "code": "ML",
+                            "hash": "e133b5399d0e689bf1c936b8b13f6dac",
+                            "isEditable": true,
+                            "label": "Music Stereo Left",
+                            "language": "No Language",
+                            "loudnessRange": "11.7 LU",
+                            "name": "Audio Track 5",
+                            "peakValue": "-10.38 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 5,
+                            "typeNum": 4
+                        },
+                        {
+                            "audioLoudnessValue": "-28.73 LKFS",
+                            "code": "MR",
+                            "hash": "a98a4090bf1355f6b65ec33acdd8fa69",
+                            "isEditable": true,
+                            "label": "Music Stereo Right",
+                            "language": "No Language",
+                            "loudnessRange": "11.7 LU",
+                            "name": "Audio Track 6",
+                            "peakValue": "-10.38 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 6,
+                            "typeNum": 5
+                        },
+                        {
+                            "audioLoudnessValue": "-30.10 LKFS",
+                            "code": "EL",
+                            "hash": "6800f67cdfc19194990c2e4f7d0db766",
+                            "isEditable": true,
+                            "label": "Sound Effects/SOT/BG dialog Stereo Left",
+                            "language": "No Language",
+                            "loudnessRange": "26.8 LU",
+                            "name": "Audio Track 7",
+                            "peakValue": "-9.65 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 7,
+                            "typeNum": 6
+                        },
+                        {
+                            "audioLoudnessValue": "-30.10 LKFS",
+                            "code": "ER",
+                            "hash": "ce4dc97ab61b07d99b1e616c9151dad3",
+                            "internationalAudio": false,
+                            "isEditable": true,
+                            "label": "Sound Effects/SOT/BG dialog Stereo Right",
+                            "language": "No Language",
+                            "loudnessRange": "26.8 LU",
+                            "name": "Audio Track 8",
+                            "peakValue": "-9.65 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 8,
+                            "typeNum": 7
+                        }
+                    ],
+                    "creditStatus": "Embedded",
+                    "cutType": "Cut To Clock",
+                    "deliverableNotes": "",
+                    "fileClass": "DNX HD MXF",
+                    "language": "English",
+                    "orgVideoFormat": "",
+                    "paddedSegments": {
+                        "credit": {
+                            "inPad": 0,
+                            "inPoint": "01:40:47;26",
+                            "outPad": 0,
+                            "outPoint": "01:41:09;01",
+                            "segmentType": "Embedded Credits"
+                        },
+                        "segments": [
+                            {
+                                "duration": "00:12:39;14",
+                                "endTime": "01:12:39;13",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:00:00;00",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:02:23;00",
+                                        "outPoint": "01:03:03;12"
+                                    },
+                                    {
+                                        "inPoint": "01:03:14;09",
+                                        "outPoint": "01:03:54;19"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:07:06;05",
+                                "endTime": "01:19:50;18",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:12:44;14",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:13:03;01",
+                                        "outPoint": "01:14:03;25"
+                                    },
+                                    {
+                                        "inPoint": "01:15:36;03",
+                                        "outPoint": "01:16:16;15"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:07:30;00",
+                                "endTime": "01:27:25;18",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:19:55;19",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:20:58;09",
+                                        "outPoint": "01:21:38;21"
+                                    },
+                                    {
+                                        "inPoint": "01:22:06;19",
+                                        "outPoint": "01:22:46;29"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:05:55;18",
+                                "endTime": "01:33:26;06",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:27:30;19",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:27:49;26",
+                                        "outPoint": "01:28:30;08"
+                                    },
+                                    {
+                                        "inPoint": "01:29:06;13",
+                                        "outPoint": "01:29:46;23"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:01:04;07",
+                                "endTime": "01:34:35;13",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:33:31;07",
+                                "woo": []
+                            },
+                            {
+                                "duration": "00:06:29;17",
+                                "endTime": "01:41:10;00",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:34:40;14",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:34:48;08",
+                                        "outPoint": "01:35:28;20"
+                                    },
+                                    {
+                                        "inPoint": "01:37:33;02",
+                                        "outPoint": "01:38:13;14"
+                                    }
+                                ]
+                            }
+                        ],
+                        "slate": {
+                            "inPoint": "00:59:35;00",
+                            "outPoint": "00:59:50;00",
+                            "segmentType": "Slate"
+                        }
+                    },
+                    "segments": {
+                        "credit": {
+                            "inPoint": "01:40:47;26",
+                            "outPoint": "01:41:09;01",
+                            "segmentType": "Embedded Credits"
+                        },
+                        "segments": [
+                            {
+                                "duration": "00:12:39;13",
+                                "endTime": "01:12:39;13",
+                                "segmentType": "Segment",
+                                "startTime": "01:00:00;00",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:02:23;00",
+                                        "outPoint": "01:03:03;12"
+                                    },
+                                    {
+                                        "inPoint": "01:03:14;09",
+                                        "outPoint": "01:03:54;19"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:07:06;04",
+                                "endTime": "01:19:50;18",
+                                "segmentType": "Segment",
+                                "startTime": "01:12:44;14",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:13:03;01",
+                                        "outPoint": "01:14:03;25"
+                                    },
+                                    {
+                                        "inPoint": "01:15:36;03",
+                                        "outPoint": "01:16:16;15"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:07:29;29",
+                                "endTime": "01:27:25;18",
+                                "segmentType": "Segment",
+                                "startTime": "01:19:55;19",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:20:58;09",
+                                        "outPoint": "01:21:38;21"
+                                    },
+                                    {
+                                        "inPoint": "01:22:06;19",
+                                        "outPoint": "01:22:46;29"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:05:55;17",
+                                "endTime": "01:33:26;06",
+                                "segmentType": "Segment",
+                                "startTime": "01:27:30;19",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:27:49;26",
+                                        "outPoint": "01:28:30;08"
+                                    },
+                                    {
+                                        "inPoint": "01:29:06;13",
+                                        "outPoint": "01:29:46;23"
+                                    }
+                                ]
+                            },
+                            {
+                                "duration": "00:01:04;06",
+                                "endTime": "01:34:35;13",
+                                "segmentType": "Segment",
+                                "startTime": "01:33:31;07",
+                                "woo": []
+                            },
+                            {
+                                "duration": "00:06:29;16",
+                                "endTime": "01:41:10;00",
+                                "segmentType": "Segment",
+                                "startTime": "01:34:40;14",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:34:48;08",
+                                        "outPoint": "01:35:28;20"
+                                    },
+                                    {
+                                        "inPoint": "01:37:33;02",
+                                        "outPoint": "01:38:13;14"
+                                    }
+                                ]
+                            }
+                        ],
+                        "slate": {
+                            "inPoint": "00:59:35;00",
+                            "outPoint": "00:59:50;00",
+                            "segmentType": "Slate"
+                        }
+                    },
+                    "sniVersion": {
+                        "abstractScrid": 5631528,
+                        "scrid": 13771871,
+                        "showCode": "TEUX107T50H"
+                    },
+                    "submitted_by": "sunflowerpost22@gmail.com",
+                    "tCType": "DF",
+                    "tRT": "00:42:50;02",
+                    "videoFormat": "1080p 29.97"
+                },
+                "workflowFaults": {
+                    "Audio Dynamic Range Violation": {
+                        "occurrences": [
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 4
+                            },
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 5
+                            },
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 6
+                            },
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 7
+                            }
+                        ]
+                    },
+                    "Segment Detection Mismatch": {
+                        "occurrences": [
+                            {
+                                "attributes": {},
+                                "category": "Segment",
+                                "location": {
+                                    "durationSeconds": "",
+                                    "end": "01:41:20;01",
+                                    "start": "00:58:30;00"
+                                },
+                                "name": "Segment 0",
+                                "providerName": "",
+                                "segmentIndex": 0,
+                                "severity": "",
+                                "startTime": "00:58:30;00",
+                                "stopTime": "01:41:20;01",
+                                "tags": []
+                            }
+                        ]
+                    }
+                },
+                "wormhole": {
+                    "retimeSegments": []
+                },
+                "wormholeCompressed": true
+            },
+            "updatedAt": 1675328209878
+        },
+        "id": "957787",
+        "links": {
+            "self": "https://discovery-uat.sdvi.com/api/v2/userMetadata/957787"
+        },
+        "meta": {
+            "generatedAt": 1675328432054,
+            "schema": {
+                "generator": "monkey",
+                "generatorSha": "63b85e170",
+                "sha": "010ac0a44ae41eef18a58e47d507d58a0cd79ed9a47a176cc3cad26b92e13005",
+                "version": 1
+            }
+        },
+        "relationships": {
+            "organization": {
+                "data": {
+                    "id": "1",
+                    "type": "organizations"
+                },
+                "links": {
+                    "self": "https://discovery-uat.sdvi.com/api/v2/organizations/1"
+                }
+            }
+        },
+        "type": "userMetadata"
+    }
+}

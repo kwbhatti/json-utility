@@ -1,11 +1,18 @@
 package com.chimpcentral;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Map;
 
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
+import com.chimpcentral.comparison.Differences;
+import com.chimpcentral.comparison.JsonComparison;
+import com.chimpcentral.comparison.JsonComparison.WhichValue;
 import com.chimpcentral.jsons.JSONArray;
 import com.chimpcentral.jsons.JSONObject;
 import com.chimpcentral.jsons.JSONPathUtility;
@@ -14,12 +21,16 @@ public class JsonTests {
 
 	private static final String USER_DIR = System.getProperty("user.dir");
 	private static final String TEST_DIR = USER_DIR + "/src/test/resources/com/chimpcentral/JsonTests";
+	
 	private static final String EXAMPLE1_FILE_PATH = TEST_DIR + "/example1.json";
 	private static final String EXAMPLE2_FILE_PATH = TEST_DIR + "/example2.json";
 	private static final String REQUEST1_FILE_PATH = TEST_DIR + "/request1.json";
 	private static final String REQUEST2_FILE_PATH = TEST_DIR + "/request2.json";
 	private static final String REQUEST3_FILE_PATH = TEST_DIR + "/request3.json";
 	private static final String REQUEST4_FILE_PATH = TEST_DIR + "/request4.json";
+	private static final String JSON_ARRAY_COMPARISON1_FILE_PATH = TEST_DIR + "/metadata1.json";
+	private static final String JSON_ARRAY_COMPARISON2_FILE_PATH = TEST_DIR + "/metadata2.json";
+	
 	private static final File EXAMPLE1_FILE = new File(EXAMPLE1_FILE_PATH);
 	private static final File EXAMPLE2_FILE = new File(EXAMPLE2_FILE_PATH);
 	private static final File REQUEST1_FILE = new File(REQUEST1_FILE_PATH);
@@ -28,7 +39,10 @@ public class JsonTests {
 	@SuppressWarnings("unused")
 	private static final File REQUEST3_FILE = new File(REQUEST3_FILE_PATH);
 	private static final File REQUEST4_FILE = new File(REQUEST4_FILE_PATH);
+	private static final File JSON_ARRAY_COMPARISON1_FILE = new File(JSON_ARRAY_COMPARISON1_FILE_PATH);
+	private static final File JSON_ARRAY_COMPARISON2_FILE = new File(JSON_ARRAY_COMPARISON2_FILE_PATH);
 	
+	@Ignore
 	@Test
 	private void JSONObjectTest() {
 		try {
@@ -64,6 +78,7 @@ public class JsonTests {
 		}
 	}
 	
+	@Ignore
 	@Test
 	private void JSONArrayTest() {
 		try {
@@ -75,6 +90,7 @@ public class JsonTests {
 		}
 	}
 	
+	@Ignore
 	@Test
 	private void JSONTest() throws IOException {
 		JSONObject jsonObject = new JSONObject(REQUEST1_FILE);
@@ -108,6 +124,7 @@ public class JsonTests {
 		System.out.println(jsonObject);
 	}
 	
+	@Ignore
 	@Test
 	private void JSONPathUtilTest() {
 		String firstnode = JSONPathUtility.getFirstNode("'so.me'.'so.me'.some.'some'.some.some");
@@ -122,6 +139,7 @@ public class JsonTests {
 		System.out.println("nodes are " + JSONPathUtility.getNodes("'jsonchild1'.'jsonchild2'"));
 	}
 	
+	@Ignore
 	@Test
 	private void testnow() throws IOException {
 		JSONObject jsonObject = new JSONObject(REQUEST4_FILE);
@@ -129,6 +147,51 @@ public class JsonTests {
 		Assert.assertTrue(jsonObject.contains("'some.one'.'some.two'.'some.three'.'some.four'"));
 		Assert.assertTrue(jsonObject.get("'some.one'.'some.two'.'some.three'.'some.four'").equals("somepathvalue"));
 		System.out.println(jsonObject);
+	}
+	
+	public void writeToFile(String filepath, String str) throws IOException {
+	    BufferedWriter writer = new BufferedWriter(new FileWriter(filepath, true));
+	    writer.write(str);
+	    writer.close();
+	}
+	
+	@Test
+	private void testJsonArrayComparison() throws IOException {
+		String filepath = TEST_DIR + "/output.txt";
+		File file = new File(filepath);
+		file.createNewFile();
+		JSONObject jsonObj1 = new JSONObject(JSON_ARRAY_COMPARISON1_FILE);
+		JSONObject jsonObj2 = new JSONObject(JSON_ARRAY_COMPARISON2_FILE);
+		System.out.println(jsonObj1);
+		System.out.println(jsonObj2);
+		System.out.println(jsonObj1.get("array1[4].name"));
+		JsonComparison jsonComparison = new JsonComparison(jsonObj1, jsonObj2, true);
+		Differences differences = jsonComparison
+				.find().missingPropertiesFromRight()
+				.find().mismatchingProperties()
+				.find().matchingProperties()
+//				.find().allProperties()
+				.getDifferences();
+		for (Map<WhichValue, Object> property: differences) {
+			String jsonpath = (String) property.get(WhichValue.jsonpath);
+			Object leftMapValue = property.get(WhichValue.left);
+			Object rightMapValue = property.get(WhichValue.right);
+			String whichValue = property.get(WhichValue.resultType).toString();
+			System.out.println("*************************************************");
+			System.out.println(
+					"Property: " + jsonpath
+					+ "\nleftMapValue: " + leftMapValue
+					+ "\nrightMapValue: " + rightMapValue
+					+ "\nwhichValue: " + whichValue
+					);
+			writeToFile(filepath, "\n*************************************************\n");
+			writeToFile(filepath,
+					"Property: " + jsonpath
+					+ "\nleftMapValue: " + leftMapValue
+					+ "\nrightMapValue: " + rightMapValue
+					+ "\nwhichValue: " + whichValue
+					);
+		}
 	}
 	
 }

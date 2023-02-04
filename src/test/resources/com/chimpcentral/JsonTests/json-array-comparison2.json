@@ -1,0 +1,28 @@
+{
+    "array1": [
+    	{
+    		"name": "Khurram",
+    		"age": 38,
+    		"gender": "male"
+    	},
+    	{
+    		"name": "Faaris",
+    		"age": 16,
+    		"gender": "male"
+    	},
+    	{
+    		"name": "Ayra",
+    		"age": 6,
+    		"gender": "female"
+    	},
+    	{
+    		"name": "Rayaan",
+    		"age": 11,
+    		"gender": "male"
+    	}
+    ],
+    "array2": [
+    	"red",
+    	"black"
+    ]
+}

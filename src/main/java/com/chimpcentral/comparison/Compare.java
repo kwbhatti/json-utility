@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import com.chimpcentral.comparison.Differences.ResultType;
 import com.chimpcentral.jsons.JSONObject;
-import com.fasterxml.jackson.core.JsonProcessingException;
 
 class Compare {
 
@@ -42,17 +41,18 @@ class Compare {
 		}
 	}
 	
-	private void findMissingPropertiesFromRight() {
+	private void findMissingPropertiesFromRight() throws IOException {
 		FindMissing findMissingProperties = new FindMissing(leftJsonObject, rightJsonObject, compareDatatypes, ResultType.entriesMissingFromRight);
-		leftJsonObject = findMissingProperties.getUpdatedJsonObject();
+		leftJsonObject = findMissingProperties.getFirstUpdatedJsonObject();
+		rightJsonObject = findMissingProperties.getSecondUpdatedJsonObject();
 		Differences missingPropertiesFromRight = findMissingProperties.getMissingProperties();
 		if (this.findMissingPropertiesFromRight) difference.addAll(missingPropertiesFromRight);
-
 	}
 	
-	private void findMissingPropertiesFromLeft() {
+	private void findMissingPropertiesFromLeft() throws IOException {
 		FindMissing findMissingProperties = new FindMissing(rightJsonObject, leftJsonObject, compareDatatypes, ResultType.entriesMissingFromLeft);
-		rightJsonObject = findMissingProperties.getUpdatedJsonObject();
+		leftJsonObject = findMissingProperties.getSecondUpdatedJsonObject();
+		rightJsonObject = findMissingProperties.getFirstUpdatedJsonObject();
 		Differences missingPropertiesFromLeft = findMissingProperties.getMissingProperties();
 		if (this.findMissingPropertiesFromLeft) difference.addAll(missingPropertiesFromLeft);
 	}
@@ -63,7 +63,7 @@ class Compare {
 		if (this.findMismatchingProperties) difference.addAll(matchProperties.getMismatchingProperties());
 	}
 	
-	public void findAll() throws JsonProcessingException, IOException {
+	public void findAll() throws IOException {
 		findMissingPropertiesFromLeft();
 		findMissingPropertiesFromRight();
 		if (this.findMatchingProperties || this.findMismatchingProperties) findMismatchingProperties();

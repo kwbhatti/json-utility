@@ -1,0 +1,916 @@
+{
+    "data": {
+        "attributes": {
+            "metadata": {
+                "MIIDs": {
+                    "miId1": "187943.007.18.001",
+                    "miId2": "187943.007.18.001",
+                    "miId3": "187943_007_18_001"
+                },
+                "airmasterMetaData": {
+                    "AirMaster1080i59.94": {
+                        "s3url": "s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_18_001.mxf",
+                        "sourceLabel": "SdviMovieFile",
+                        "type": "video"
+                    },
+                    "AirMaster1080i59.94LanguageEnglishFullMixStereo": {
+                        "s3url": "s3://discovery.com.uat.onramp.usdctcopdeliv.us-east-1/airMasterOutputs/187943_007_18_001_ENGS.wav",
+                        "sourceLabel": "SdviMovieFile",
+                        "sourceTracks": [
+                            0,
+                            1
+                        ],
+                        "type": "audio"
+                    }
+                },
+                "associations": {
+                    "AirMaster1080i59.94": {
+                        "gcrCutId": 4792527,
+                        "gcrObjectId": 4247944,
+                        "mfxMediaId": 116677115,
+                        "mfxVersionId": 116670605,
+                        "servantObject": false
+                    },
+                    "CaptionEnglish1080i59.94": {
+                        "gcrCutId": 4792527,
+                        "mfxMediaId": 116677114,
+                        "mfxVersionId": 116670605,
+                        "servantObject": true
+                    },
+                    "QCProxy": {
+                        "gcrCutId": 4792527,
+                        "mfxMediaId": 116677118,
+                        "mfxVersionId": 116670605,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "gcrCutId": 4792527,
+                        "gcrObjectId": 4253685,
+                        "mfxMediaId": 116677112,
+                        "mfxVersionId": 116670605,
+                        "servantObject": false
+                    },
+                    "SdviProxy": {
+                        "gcrCutId": 4792527,
+                        "mfxMediaId": 116677113,
+                        "mfxVersionId": 116670605,
+                        "servantObject": true
+                    }
+                },
+                "autoAQCComplete": true,
+                "autoAQCDesired": true,
+                "autoAQCFinished": true,
+                "autoAQCPass": true,
+                "autoAQCTimestamp": 1663833165542,
+                "caseMetaData": {
+                    "caseAttributes": {
+                        "caseParameters": {
+                            "aspectRatio": "16:9",
+                            "clockType": "Cut To Clock",
+                            "format": "HD"
+                        },
+                        "caseSummary": "DC, 16:9, HD, CTC",
+                        "caseTypes": {
+                            "durationChangeInd": true
+                        },
+                        "primaryCaseType": "durationChange"
+                    },
+                    "caseUuid": "2aa66fa1-328b-4c1c-af22-fd3744e36176",
+                    "caseVersionName": "DC_Wormhole Compression"
+                },
+                "compressedSegments": [
+                    {
+                        "dst_duration_nominal": "00:01:05;00",
+                        "dst_end_frame_idx": 107141,
+                        "dst_end_timecode": "00:59:34;29",
+                        "dst_frame_count": 1948,
+                        "dst_start_frame_idx": 105194,
+                        "dst_start_timecode": "00:58:30;00",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1.0,
+                        "src_duration_nominal": "00:01:05;00",
+                        "src_end_frame_idx": 1947,
+                        "src_end_timecode": "00:59:34;29",
+                        "src_frame_count": 1948,
+                        "src_start_frame_idx": 0,
+                        "src_start_timecode": "00:58:30;00",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:15;01",
+                        "dst_end_frame_idx": 107592,
+                        "dst_end_timecode": "00:59:50;00",
+                        "dst_frame_count": 451,
+                        "dst_start_frame_idx": 107142,
+                        "dst_start_timecode": "00:59:35;00",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1.0,
+                        "src_duration_nominal": "00:00:15;01",
+                        "src_end_frame_idx": 2398,
+                        "src_end_timecode": "00:59:50;00",
+                        "src_frame_count": 451,
+                        "src_start_frame_idx": 1948,
+                        "src_start_timecode": "00:59:35;00",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:09;29",
+                        "dst_end_frame_idx": 107891,
+                        "dst_end_timecode": "00:59:59;29",
+                        "dst_frame_count": 299,
+                        "dst_start_frame_idx": 107593,
+                        "dst_start_timecode": "00:59:50;01",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1.0,
+                        "src_duration_nominal": "00:00:09;29",
+                        "src_end_frame_idx": 2697,
+                        "src_end_timecode": "00:59:59;29",
+                        "src_frame_count": 299,
+                        "src_start_frame_idx": 2399,
+                        "src_start_timecode": "00:59:50;01",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:01:30;00",
+                        "dst_end_frame_idx": 110589,
+                        "dst_end_timecode": "01:01:29;29",
+                        "dst_frame_count": 2698,
+                        "dst_start_frame_idx": 107892,
+                        "dst_start_timecode": "01:00:00;00",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1.0,
+                        "src_duration_nominal": "00:01:30;00",
+                        "src_end_frame_idx": 5395,
+                        "src_end_timecode": "01:01:29;29",
+                        "src_frame_count": 2698,
+                        "src_start_frame_idx": 2698,
+                        "src_start_timecode": "01:00:00;00",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:39:17;28",
+                        "dst_end_frame_idx": 181255,
+                        "dst_end_timecode": "01:40:47;25",
+                        "dst_frame_count": 70666,
+                        "dst_start_frame_idx": 110590,
+                        "dst_start_timecode": "01:01:30;00",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9813,
+                        "src_duration_nominal": "00:40:02;27",
+                        "src_end_frame_idx": 77410,
+                        "src_end_timecode": "01:41:32;26",
+                        "src_frame_count": 72015,
+                        "src_start_frame_idx": 5396,
+                        "src_start_timecode": "01:01:30;00",
+                        "time_delta": "00:00:44;29"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:21;04",
+                        "dst_end_frame_idx": 181889,
+                        "dst_end_timecode": "01:41:09;01",
+                        "dst_frame_count": 634,
+                        "dst_start_frame_idx": 181256,
+                        "dst_start_timecode": "01:40:47;26",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1.0,
+                        "src_duration_nominal": "00:00:21;04",
+                        "src_end_frame_idx": 78044,
+                        "src_end_timecode": "01:41:54;00",
+                        "src_frame_count": 634,
+                        "src_start_frame_idx": 77411,
+                        "src_start_timecode": "01:41:32;27",
+                        "time_delta": "00:00:00;00"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:00;29",
+                        "dst_end_frame_idx": 181918,
+                        "dst_end_timecode": "01:41:10;00",
+                        "dst_frame_count": 29,
+                        "dst_start_frame_idx": 181890,
+                        "dst_start_timecode": "01:41:09;02",
+                        "errors": [],
+                        "is_break": false,
+                        "speed_multiplier": 0.9667,
+                        "src_duration_nominal": "00:00:01;00",
+                        "src_end_frame_idx": 78074,
+                        "src_end_timecode": "01:41:55;00",
+                        "src_frame_count": 30,
+                        "src_start_frame_idx": 78045,
+                        "src_start_timecode": "01:41:54;01",
+                        "time_delta": "00:00:00;01"
+                    },
+                    {
+                        "dst_duration_nominal": "00:00:10;01",
+                        "dst_end_frame_idx": 182219,
+                        "dst_end_timecode": "01:41:20;01",
+                        "dst_frame_count": 301,
+                        "dst_start_frame_idx": 181919,
+                        "dst_start_timecode": "01:41:10;01",
+                        "errors": [],
+                        "is_break": true,
+                        "speed_multiplier": 1.0,
+                        "src_duration_nominal": "00:00:10;01",
+                        "src_end_frame_idx": 78375,
+                        "src_end_timecode": "01:42:05;03",
+                        "src_frame_count": 301,
+                        "src_start_frame_idx": 78075,
+                        "src_start_timecode": "01:41:55;01",
+                        "time_delta": "00:00:00;00"
+                    }
+                ],
+                "compressionJob": [
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 0",
+                        "src_end_timecode": "00:59:34;29",
+                        "src_start_timecode": "00:58:30;00"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 1",
+                        "src_end_timecode": "00:59:50;00",
+                        "src_start_timecode": "00:59:35;00"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 2",
+                        "src_end_timecode": "00:59:59;29",
+                        "src_start_timecode": "00:59:50;01"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 3",
+                        "src_end_timecode": "01:01:29;29",
+                        "src_start_timecode": "01:00:00;00"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:45;00",
+                        "is_break": false,
+                        "label": "Snippet 4",
+                        "src_end_timecode": "01:41:32;26",
+                        "src_start_timecode": "01:01:30;00"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 5",
+                        "src_end_timecode": "01:41:54;00",
+                        "src_start_timecode": "01:41:32;27"
+                    },
+                    {
+                        "adjustment_method": "auto",
+                        "adjustment_value": "00:00:00;01",
+                        "is_break": false,
+                        "label": "Snippet 6",
+                        "src_end_timecode": "01:41:55;00",
+                        "src_start_timecode": "01:41:54;01"
+                    },
+                    {
+                        "adjustment_method": null,
+                        "adjustment_value": "00:00:00;00",
+                        "is_break": true,
+                        "label": "Snippet 7",
+                        "src_end_timecode": "01:42:05;03",
+                        "src_start_timecode": "01:41:55;01"
+                    }
+                ],
+                "compressionMetaData": {
+                    "compressionVersionName": "Wormhole Compression_TimeCompression_45_Seconds"
+                },
+                "creditType": "Embedded Credits",
+                "gcrMetadata": {
+                    "AirMaster1080i59.94": {
+                        "cutId": 4792527,
+                        "objectId": 4247944
+                    },
+                    "CaptionEnglish1080i59.94": {
+                        "cutId": 4792527,
+                        "servantObject": true
+                    },
+                    "QCProxy": {
+                        "cutId": 4792527,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "cutId": 4792527,
+                        "objectId": 4253685
+                    },
+                    "SdviProxy": {
+                        "cutId": 4792527,
+                        "servantObject": true
+                    }
+                },
+                "hiveMetaData": {
+                    "abstractScrid": 5631528,
+                    "dealType": "CO",
+                    "dealTypeWorkflow": "CO",
+                    "deliverableReceivedStatus": "Tech Pass",
+                    "deliverableType": "Wormhole Compression",
+                    "episodeId": 904229,
+                    "episodeName": "The Amazon's Cursed Ruins",
+                    "episodeNumber": 7,
+                    "episodeTitle": "The Amazon's Cursed Ruins",
+                    "network": "Travel Channel - US",
+                    "originationNetwork": "Discovery Channel - US",
+                    "originationNetworkPdsId": 1,
+                    "paid": "187943.007.18.001",
+                    "programName": "Expedition X",
+                    "propertyId": 187943,
+                    "scrid": 5631528,
+                    "seasonId": 192238,
+                    "seasonNumber": 1,
+                    "seasonTitle": "Expedition X",
+                    "showId": 159859,
+                    "showTitle": "Expedition X",
+                    "slotLength": 3600
+                },
+                "mediaflexMetaData": {
+                    "AirMaster1080i59.94": {
+                        "mediaId": 116677115,
+                        "versionId": 116670605
+                    },
+                    "AirMaster1080i59.94LanguageEnglishFullMixStereo": {
+                        "mediaId": 116677117,
+                        "versionId": 116670605
+                    },
+                    "CaptionEnglish1080i59.94": {
+                        "mediaId": 116677114,
+                        "versionId": 116670605
+                    },
+                    "QCProxy": {
+                        "mediaId": 116677118,
+                        "versionId": 116670605
+                    },
+                    "SdviMovieFile": {
+                        "autoDownloaded": true,
+                        "mediaId": 116677112,
+                        "versionId": 116670605
+                    },
+                    "SdviProxy": {
+                        "mediaId": 116677113,
+                        "versionId": 116670605
+                    },
+                    "SdviQCReport": {
+                        "autoDownloaded": true,
+                        "mediaId": 116677116,
+                        "versionId": 116670605
+                    },
+                    "deliverableReceivedStatus": "Tech Pass",
+                    "teReport": "s3://discovery.com.uat.onramp.tereports.us-east-1.s3.amazonaws.com/CCOMP_187943_007_PMF_DC_20220922034338_RoboQC.pdf"
+                },
+                "mediaflexTVStandard": "1920x1080_P_29.97_DF",
+                "onpremLocation": "DCTC",
+                "proxy": {
+                    "sdviProxy": "s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20220922034338_sdvi_proxy.mp4"
+                },
+                "qcReportVidchecker": {
+                    "pdfReport": "s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20220922034338.Vidchecker.pdf",
+                    "xmlReport": "s3://discovery.com.uat.onramp.producerportal.us-east-1/AutoQC/CCOMP_187943_007_PMF_DC_20220922034338.Vidchecker.xml"
+                },
+                "rallyQCReports": {
+                    "QC": {
+                        "sourceVidcheckerPDF": "s3://sdvi-adccbf-platform/DiscoveryUat/job_artifacts/2a46c6a9-573c-4c64-9234-757d875c47df/SdviQCReportPdfVidchecker.pdf",
+                        "sourceVidcheckerXML": "s3://sdvi-adccbf-platform/DiscoveryUat/job_artifacts/2a46c6a9-573c-4c64-9234-757d875c47df/SdviQCReportXmlVidchecker.xml"
+                    }
+                },
+                "s3Key": "s3://discovery.com.uat.onramp.archive.us-east-1/CCOMP_187943_007_PMF_DC_20220922034338.mxf",
+                "s3KeySource": "s3://discovery.com.uat.onramp.archive.us-east-1/187943_007_PMF_2622042_1.mxf",
+                "sdviMovieDeadline": "2022-09-22T08:56:48Z",
+                "sdviQcReport": {
+                    "location": "job_artifacts/2a46c6a9-573c-4c64-9234-757d875c47df/SdviQCReportPdfVidchecker.pdf",
+                    "status": "submitting"
+                },
+                "sourceAssociations": {
+                    "AirMaster1080i59.94": {
+                        "gcrCutId": 2180932,
+                        "gcrObjectId": 1758218,
+                        "mfxMediaId": 116506357,
+                        "mfxVersionId": 71181604,
+                        "servantObject": false
+                    },
+                    "AirMaster1080p29.97": {
+                        "gcrCutId": 2180932,
+                        "gcrObjectId": 1758218,
+                        "servantObject": true
+                    },
+                    "CaptionEnglish1080p29.97": {
+                        "gcrCutId": 4656511,
+                        "mfxMediaId": 116437224,
+                        "mfxVersionId": 71181604,
+                        "servantObject": true
+                    },
+                    "Conversion1080i59.94Xdcam": {
+                        "gcrCutId": 4656511,
+                        "gcrObjectId": 1910998,
+                        "mfxMediaId": 116437225,
+                        "mfxVersionId": 71181604,
+                        "servantObject": false
+                    },
+                    "QCProxy": {
+                        "gcrCutId": 4656510,
+                        "mfxMediaId": 116437226,
+                        "mfxVersionId": 71181604,
+                        "servantObject": true
+                    },
+                    "SdviMovieFile": {
+                        "gcrCutId": 4656510,
+                        "gcrObjectId": 1910997,
+                        "mfxMediaId": 116437227,
+                        "mfxVersionId": 71181604,
+                        "servantObject": false
+                    },
+                    "SdviProxy": {
+                        "gcrCutId": 4656510,
+                        "mfxMediaId": 116437228,
+                        "mfxVersionId": 71181604,
+                        "servantObject": true
+                    }
+                },
+                "sourceMovieName": "187943_007_PMF_2622042_1",
+                "sourceSegments": {
+                    "credit": {
+                        "inPoint": "01:41:32;27",
+                        "outPoint": "01:41:54;00",
+                        "segmentType": "Embedded Credits"
+                    },
+                    "segments": [
+                        {
+                            "duration": "00:41:55;00",
+                            "endTime": "01:41:55;00",
+                            "segmentType": "Segment",
+                            "startTime": "01:00:00;00",
+                            "woo": [
+                                {
+                                    "inPoint": "01:02:24;00",
+                                    "outPoint": "01:03:04;04"
+                                },
+                                {
+                                    "inPoint": "01:03:16;09",
+                                    "outPoint": "01:03:56;11"
+                                },
+                                {
+                                    "inPoint": "01:13:16;09",
+                                    "outPoint": "01:14:18;08"
+                                },
+                                {
+                                    "inPoint": "01:15:52;10",
+                                    "outPoint": "01:16:32;14"
+                                },
+                                {
+                                    "inPoint": "01:21:20;22",
+                                    "outPoint": "01:22:00;26"
+                                },
+                                {
+                                    "inPoint": "01:22:30;10",
+                                    "outPoint": "01:23:10;14"
+                                },
+                                {
+                                    "inPoint": "01:28:20;05",
+                                    "outPoint": "01:29:00;09"
+                                },
+                                {
+                                    "inPoint": "01:29:38;04",
+                                    "outPoint": "01:30:18;06"
+                                },
+                                {
+                                    "inPoint": "01:35:26;13",
+                                    "outPoint": "01:36:06;17"
+                                },
+                                {
+                                    "inPoint": "01:38:14;13",
+                                    "outPoint": "01:38:54;15"
+                                }
+                            ]
+                        }
+                    ],
+                    "slate": {
+                        "inPoint": "00:59:35;00",
+                        "outPoint": "00:59:50;00",
+                        "segmentType": "Slate"
+                    }
+                },
+                "timeBeforeSlate": true,
+                "timeBetweenSlate": true,
+                "totalReTime": "00:00:45;00",
+                "userMetaData": {
+                    "aqcVqcStatus": "Completed",
+                    "audioTracks": [
+                        {
+                            "audioLoudnessValue": "-24.59 LKFS",
+                            "code": "FML",
+                            "hash": "b835e07b979945499020972cc2ca99c7",
+                            "isEditable": true,
+                            "label": "Full Mix Stereo Left",
+                            "language": "English",
+                            "loudnessRange": "4.4 LU",
+                            "name": "Audio Track 1",
+                            "originalAudio": true,
+                            "peakValue": "-2.49 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 1,
+                            "typeNum": 0
+                        },
+                        {
+                            "audioLoudnessValue": "-24.59 LKFS",
+                            "code": "FMR",
+                            "hash": "7059c1177c0fd428b03f748dfcd3ef1e",
+                            "isEditable": true,
+                            "label": "Full Mix Stereo Right",
+                            "language": "English",
+                            "loudnessRange": "4.4 LU",
+                            "name": "Audio Track 2",
+                            "originalAudio": true,
+                            "peakValue": "-2.49 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 2,
+                            "typeNum": 1
+                        },
+                        {
+                            "audioLoudnessValue": "-24.57 LKFS",
+                            "code": "MML",
+                            "hash": "cf6435f9b62277649f7479c4e03c8938",
+                            "isEditable": true,
+                            "label": "Mix Minus Narration Stereo Left",
+                            "language": "English",
+                            "loudnessRange": "7.6 LU",
+                            "name": "Audio Track 3",
+                            "peakValue": "-1.94 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 3,
+                            "typeNum": 2
+                        },
+                        {
+                            "audioLoudnessValue": "-24.57 LKFS",
+                            "code": "MMR",
+                            "hash": "ea712c4acd684df618d9e372738ae62f",
+                            "isEditable": true,
+                            "label": "Mix Minus Narration Stereo Right",
+                            "language": "English",
+                            "loudnessRange": "7.6 LU",
+                            "name": "Audio Track 4",
+                            "peakValue": "-1.94 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 4,
+                            "typeNum": 3
+                        },
+                        {
+                            "audioLoudnessValue": "-28.73 LKFS",
+                            "code": "ML",
+                            "hash": "e133b5399d0e689bf1c936b8b13f6dac",
+                            "isEditable": true,
+                            "label": "Music Stereo Left",
+                            "language": "No Language",
+                            "loudnessRange": "11.7 LU",
+                            "name": "Audio Track 5",
+                            "peakValue": "-10.38 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 5,
+                            "typeNum": 4
+                        },
+                        {
+                            "audioLoudnessValue": "-28.73 LKFS",
+                            "code": "MR",
+                            "hash": "a98a4090bf1355f6b65ec33acdd8fa69",
+                            "isEditable": true,
+                            "label": "Music Stereo Right",
+                            "language": "No Language",
+                            "loudnessRange": "11.7 LU",
+                            "name": "Audio Track 6",
+                            "peakValue": "-10.38 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 6,
+                            "typeNum": 5
+                        },
+                        {
+                            "audioLoudnessValue": "-30.10 LKFS",
+                            "code": "EL",
+                            "hash": "6800f67cdfc19194990c2e4f7d0db766",
+                            "isEditable": true,
+                            "label": "Sound Effects/SOT/BG dialog Stereo Left",
+                            "language": "No Language",
+                            "loudnessRange": "26.8 LU",
+                            "name": "Audio Track 7",
+                            "peakValue": "-9.66 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 7,
+                            "typeNum": 6
+                        },
+                        {
+                            "audioLoudnessValue": "-30.10 LKFS",
+                            "code": "ER",
+                            "hash": "ce4dc97ab61b07d99b1e616c9151dad3",
+                            "internationalAudio": false,
+                            "isEditable": true,
+                            "label": "Sound Effects/SOT/BG dialog Stereo Right",
+                            "language": "No Language",
+                            "loudnessRange": "26.8 LU",
+                            "name": "Audio Track 8",
+                            "peakValue": "-9.66 dB",
+                            "reportKey": "audioTracks",
+                            "trackNum": 8,
+                            "typeNum": 7
+                        }
+                    ],
+                    "batonAudioInputAirmasterLabel": "AirMaster1080i59.94",
+                    "creditStatus": "Embedded",
+                    "cutType": "Cut To Clock",
+                    "deliverableNotes": "",
+                    "fileClass": "DNX HD MXF",
+                    "language": "English",
+                    "onrampAirmasterCreation": true,
+                    "orgVideoFormat": "",
+                    "paddedSegments": {
+                        "credit": {
+                            "inPad": 0,
+                            "inPoint": "01:40:47;26",
+                            "outPad": 0,
+                            "outPoint": "01:41:09;01",
+                            "segmentType": "Embedded Credits"
+                        },
+                        "segments": [
+                            {
+                                "duration": "00:41:10;01",
+                                "endTime": "01:41:10;00",
+                                "inPad": 0,
+                                "outPad": 0,
+                                "segmentType": "Segment",
+                                "startTime": "01:00:00;00",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:02:23;00",
+                                        "outPoint": "01:03:03;13"
+                                    },
+                                    {
+                                        "inPoint": "01:03:14;10",
+                                        "outPoint": "01:03:54;20"
+                                    },
+                                    {
+                                        "inPoint": "01:13:03;02",
+                                        "outPoint": "01:14:03;28"
+                                    },
+                                    {
+                                        "inPoint": "01:15:36;06",
+                                        "outPoint": "01:16:16;18"
+                                    },
+                                    {
+                                        "inPoint": "01:20:58;11",
+                                        "outPoint": "01:21:38;23"
+                                    },
+                                    {
+                                        "inPoint": "01:22:06;22",
+                                        "outPoint": "01:22:47;02"
+                                    },
+                                    {
+                                        "inPoint": "01:27:49;28",
+                                        "outPoint": "01:28:30;11"
+                                    },
+                                    {
+                                        "inPoint": "01:29:06;15",
+                                        "outPoint": "01:29:46;26"
+                                    },
+                                    {
+                                        "inPoint": "01:34:48;07",
+                                        "outPoint": "01:35:28;19"
+                                    },
+                                    {
+                                        "inPoint": "01:37:33;02",
+                                        "outPoint": "01:38:13;15"
+                                    }
+                                ]
+                            }
+                        ],
+                        "slate": {
+                            "inPoint": "00:59:35;00",
+                            "outPoint": "00:59:50;00",
+                            "segmentType": "Slate"
+                        }
+                    },
+                    "runAQCFlow": true,
+                    "segments": {
+                        "credit": {
+                            "inPoint": "01:40:47;26",
+                            "outPoint": "01:41:09;01",
+                            "segmentType": "Embedded Credits"
+                        },
+                        "segments": [
+                            {
+                                "duration": "00:41:10;00",
+                                "endTime": "01:41:10;00",
+                                "segmentType": "Segment",
+                                "startTime": "01:00:00;00",
+                                "woo": [
+                                    {
+                                        "inPoint": "01:02:23;00",
+                                        "outPoint": "01:03:03;13"
+                                    },
+                                    {
+                                        "inPoint": "01:03:14;10",
+                                        "outPoint": "01:03:54;20"
+                                    },
+                                    {
+                                        "inPoint": "01:13:03;02",
+                                        "outPoint": "01:14:03;28"
+                                    },
+                                    {
+                                        "inPoint": "01:15:36;06",
+                                        "outPoint": "01:16:16;18"
+                                    },
+                                    {
+                                        "inPoint": "01:20:58;11",
+                                        "outPoint": "01:21:38;23"
+                                    },
+                                    {
+                                        "inPoint": "01:22:06;22",
+                                        "outPoint": "01:22:47;02"
+                                    },
+                                    {
+                                        "inPoint": "01:27:49;28",
+                                        "outPoint": "01:28:30;11"
+                                    },
+                                    {
+                                        "inPoint": "01:29:06;15",
+                                        "outPoint": "01:29:46;26"
+                                    },
+                                    {
+                                        "inPoint": "01:34:48;07",
+                                        "outPoint": "01:35:28;19"
+                                    },
+                                    {
+                                        "inPoint": "01:37:33;02",
+                                        "outPoint": "01:38:13;15"
+                                    }
+                                ]
+                            }
+                        ],
+                        "slate": {
+                            "inPoint": "00:59:35;00",
+                            "outPoint": "00:59:50;00",
+                            "segmentType": "Slate"
+                        }
+                    },
+                    "sniVersion": {
+                        "abstractScrid": 5631528,
+                        "scrid": 13272432,
+                        "showCode": "TEUX107T14H"
+                    },
+                    "submitted_by": "sunflowerpost22@gmail.com",
+                    "tCType": "DF",
+                    "tRT": "00:42:50;02",
+                    "videoFormat": "1080p 29.97",
+                    "videoQCAirmasterLabel": "AirMaster1080i59.94"
+                },
+                "workflowFaults": {
+                    "Audio Dynamic Range Violation": {
+                        "occurrences": [
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 5. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 4
+                            },
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 11.7 LU on track 6. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 5
+                            },
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 7. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 6
+                            },
+                            {
+                                "attributes": {},
+                                "location": {
+                                    "durationSeconds": 30,
+                                    "end": "01:40:50;01",
+                                    "start": "01:40:50;01"
+                                },
+                                "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.",
+                                "name": "Audio Dynamic Range Violation",
+                                "providerName": "",
+                                "severity": "warning",
+                                "source": {
+                                    "message": "LRA is below 2.5 LU or above 9 LU at 26.8 LU on track 8. Fix Audio.",
+                                    "type": "Audio Dynamic Range Violation"
+                                },
+                                "startTime": "01:40:50;01",
+                                "stopTime": "01:41:20;02",
+                                "tags": [
+                                    "audio"
+                                ],
+                                "trackIndex": 7
+                            }
+                        ]
+                    },
+                    "Segment Detection Mismatch": {
+                        "occurrences": [
+                            {
+                                "attributes": {},
+                                "category": "Segment",
+                                "location": {
+                                    "durationSeconds": "",
+                                    "end": "01:41:20;01",
+                                    "start": "00:58:30;00"
+                                },
+                                "name": "Segment 0",
+                                "providerName": "",
+                                "segmentIndex": 0,
+                                "severity": "",
+                                "startTime": "00:58:30;00",
+                                "stopTime": "01:41:20;01",
+                                "tags": []
+                            }
+                        ]
+                    }
+                },
+                "wormhole": {
+                    "retimeSegments": []
+                },
+                "wormholeCompressed": true
+            },
+            "usage": "Metadata"
+        },
+        "id": "Metadata",
+        "links": {
+            "self": "https://discovery-uat.sdvi.com/api/v2/movies/837654/metadata/Metadata"
+        },
+        "relationships": {
+            "organization": {
+                "data": {
+                    "id": "1",
+                    "type": "organizations"
+                },
+                "links": {
+                    "self": "https://discovery-uat.sdvi.com/api/v2/organizations/1"
+                }
+            }
+        },
+        "type": "metadata"
+    }
+}
