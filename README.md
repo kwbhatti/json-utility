@@ -1,1 +1,1 @@
-# maven-publish-template
+# JSON Utility
