@@ -51,6 +51,7 @@ class FindMissing extends Find {
 				if ((compareDatatypes && firstJsonObject.get(currentJsonpath) == null) || (!compareDatatypes && String.valueOf(firstJsonObject.get(currentJsonpath)).equals("null"))) {
 					differences.add(currentJsonpath, firstJsonObject.get(currentJsonpath), secondJsonObject.get(currentJsonpath), ResultType.entiresMatching);
 				}
+			} else if (secondJsonObject.get(currentJsonpath) == null) {
 			} else if (!secondJsonObject.get(currentJsonpath).equals(firstJsonObject.get(currentJsonpath))) {
 				if (objectIsMap(firstJsonObject.get(currentJsonpath))) {
 					processMap(currentJsonpath);

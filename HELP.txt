@@ -28,3 +28,6 @@ Release version 4.0.0 2/4/2023
 	
 Release version 4.0.1 2/4/2023
 	-Json Comparison bug with jsonpath for arrays
+	
+Release version 4.1.1 2/10/2023
+	-Fixed bug throwing null pointer when checking null values 
